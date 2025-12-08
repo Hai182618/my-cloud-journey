@@ -6,9 +6,6 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Thông tin dưới đây chỉ mang tính tham khảo. Vui lòng **không sao chép nguyên văn** cho báo cáo của bạn, bao gồm cả cảnh báo này.
-{{% /notice %}}
 
 Phần này bao gồm các blog kỹ thuật AWS mà bạn đã dịch. Mỗi blog đề cập đến một chủ đề khác nhau, từ tối ưu hiệu năng tính toán, kiến trúc dữ liệu quy mô lớn, cho đến công cụ AI hỗ trợ lập trình viên.
 

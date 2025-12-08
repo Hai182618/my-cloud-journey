@@ -19,13 +19,13 @@ pre: "<b>1.9.</b>"
 
 | Day | Task                                                                                                                                                                                                                   | Start Date | Completion Date |
 | --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- |
-| 57  | - Tạo VPC <br> - Tạo Security Group <br> - Tạo EC2 Instance <br> - Cấu hình Slack Incoming Webhooks                                                                                                                   | 03/11/2025 | 03/11/2025      |
-| 58  | - Tạo Tag cho Instance <br> - Tạo Role cho Lambda <br> - Viết Lambda Stop Instance <br> - Viết Lambda Start Instance <br> - Kiểm tra kết quả <br> - Dọn dẹp tài nguyên                                               | 04/11/2025 | 04/11/2025      |
-| 59  | - Tạo EC2 Instance có Tag <br> - Quản lý Tag <br> - Lọc tài nguyên theo Tag <br> - Dùng Tag với CLI <br> - Tạo Resource Group <br> - Cleanup                                                                         | 05/11/2025 | 05/11/2025      |
-| 60  | - Tạo IAM User <br> - Tạo IAM Policy <br> - Tạo IAM Role                                                                                                                                                              | 06/11/2025 | 06/11/2025      |
-| 61  | - Switch Roles <br> - Truy cập EC2 tại Tokyo <br> - Truy cập EC2 tại North Virginia <br> - Test tạo EC2 khi thiếu/đủ Tag <br> - Chỉnh sửa Tag <br> - Kiểm tra Policy <br> - Cleanup                                 | 07/11/2025 | 07/11/2025      |
-| 62  | - Tạo Restriction Policy <br> - Tạo IAM User giới hạn quyền <br> - Test giới hạn truy cập <br> - Cleanup                                                                                                             | 08/11/2025 | 08/11/2025      |
-| 63  | - Tạo Policy & Role <br> - Tạo Group & User <br> - Tạo KMS Key <br> - Tạo S3 Bucket <br> - Upload dữ liệu lên S3 <br> - Tạo CloudTrail <br> - Bật Logging <br> - Tạo Athena <br> - Query bằng Athena <br> - Chia sẻ dữ liệu mã hóa <br> - Cleanup | 09/11/2025 | 09/11/2025      |
+| 1  | - Tạo VPC <br> - Tạo Security Group <br> - Tạo EC2 Instance <br> - Cấu hình Slack Incoming Webhooks                                                                                                                   | 03/11/2025 | 03/11/2025      |
+| 2  | - Tạo Tag cho Instance <br> - Tạo Role cho Lambda <br> - Viết Lambda Stop Instance <br> - Viết Lambda Start Instance <br> - Kiểm tra kết quả <br> - Dọn dẹp tài nguyên                                               | 04/11/2025 | 04/11/2025      |
+| 3  | - Tạo EC2 Instance có Tag <br> - Quản lý Tag <br> - Lọc tài nguyên theo Tag <br> - Dùng Tag với CLI <br> - Tạo Resource Group <br> - Cleanup                                                                         | 05/11/2025 | 05/11/2025      |
+| 4  | - Tạo IAM User <br> - Tạo IAM Policy <br> - Tạo IAM Role                                                                                                                                                              | 06/11/2025 | 06/11/2025      |
+| 5  | - Switch Roles <br> - Truy cập EC2 tại Tokyo <br> - Truy cập EC2 tại North Virginia <br> - Test tạo EC2 khi thiếu/đủ Tag <br> - Chỉnh sửa Tag <br> - Kiểm tra Policy <br> - Cleanup                                 | 07/11/2025 | 07/11/2025      |
+| 6  | - Tạo Restriction Policy <br> - Tạo IAM User giới hạn quyền <br> - Test giới hạn truy cập <br> - Cleanup                                                                                                             | 08/11/2025 | 08/11/2025      |
+| 7  | - Tạo Policy & Role <br> - Tạo Group & User <br> - Tạo KMS Key <br> - Tạo S3 Bucket <br> - Upload dữ liệu lên S3 <br> - Tạo CloudTrail <br> - Bật Logging <br> - Tạo Athena <br> - Query bằng Athena <br> - Chia sẻ dữ liệu mã hóa <br> - Cleanup | 09/11/2025 | 09/11/2025      |
 
 ---
 

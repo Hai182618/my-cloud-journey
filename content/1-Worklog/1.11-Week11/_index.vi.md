@@ -18,13 +18,13 @@ pre: "<b>1.11.</b>"
 
 | Day | Task                                                                                                                                                                                                         | Start Date | Completion Date |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- |
-| 71  | - Tạo S3 Bucket <br> - Tạo Delivery Stream (Kinesis Data Firehose)                                                                                                     | 17/11/2025 | 17/11/2025      |
-| 72  | - Tạo Sample Data <br> - Tạo Glue Crawler <br> - Kiểm tra dữ liệu                                                                                                      | 18/11/2025 | 18/11/2025      |
-| 73  | - Giải thích code (bản tiếng Việt) <br> - Cấu hình S3 Output <br> - Thiết lập Session Connect                                                                          | 19/11/2025 | 19/11/2025      |
-| 74  | - Phân tích bằng Athena <br> - Trực quan hóa dữ liệu bằng QuickSight <br> - Dọn dẹp tài nguyên                                                                         | 20/11/2025 | 20/11/2025      |
-| 75  | - Thực hành DynamoDB <br> - Khám phá DynamoDB <br> - Trải nghiệm giao diện DynamoDB Console                                                                            | 21/11/2025 | 21/11/2025      |
-| 76  | - Backup DynamoDB <br> - Dọn dẹp môi trường <br> - Tìm hiểu Advanced Design Patterns for DynamoDB                                                                     | 22/11/2025 | 22/11/2025      |
-| 77  | - Xây dựng & triển khai kiến trúc serverless đa vùng (Global Tables) <br> - Kiến trúc event-driven với DynamoDB Streams                                               | 23/11/2025 | 23/11/2025      |
+| 1  | - Tạo S3 Bucket <br> - Tạo Delivery Stream (Kinesis Data Firehose)                                                                                                     | 17/11/2025 | 17/11/2025      |
+| 2  | - Tạo Sample Data <br> - Tạo Glue Crawler <br> - Kiểm tra dữ liệu                                                                                                      | 18/11/2025 | 18/11/2025      |
+| 3  | - Giải thích code (bản tiếng Việt) <br> - Cấu hình S3 Output <br> - Thiết lập Session Connect                                                                          | 19/11/2025 | 19/11/2025      |
+| 4  | - Phân tích bằng Athena <br> - Trực quan hóa dữ liệu bằng QuickSight <br> - Dọn dẹp tài nguyên                                                                         | 20/11/2025 | 20/11/2025      |
+| 5  | - Thực hành DynamoDB <br> - Khám phá DynamoDB <br> - Trải nghiệm giao diện DynamoDB Console                                                                            | 21/11/2025 | 21/11/2025      |
+| 6  | - Backup DynamoDB <br> - Dọn dẹp môi trường <br> - Tìm hiểu Advanced Design Patterns for DynamoDB                                                                     | 22/11/2025 | 22/11/2025      |
+| 7  | - Xây dựng & triển khai kiến trúc serverless đa vùng (Global Tables) <br> - Kiến trúc event-driven với DynamoDB Streams                                               | 23/11/2025 | 23/11/2025      |
 
 ---
 

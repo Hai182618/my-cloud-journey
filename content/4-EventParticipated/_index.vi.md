@@ -1,85 +1,118 @@
 ---
-title: "Event Participated"
-date: "2025-11-29"
-weight: 4
+title: "Tóm Tắt Tham Gia Sự Kiện"
+date: "2025-12-01"
+weight: 1
 chapter: false
-pre: "<b>4.</b>"
 ---
 
-## Sự kiện 3 – AWS Well-Architected Security Pillar Workshop
+# **Tóm Tắt Tham Gia Sự Kiện**
 
-**Tên sự kiện:** AWS Well-Architected Security Pillar Workshop  
-**Thời gian:** 08:30 – 12:00, ngày 29/11/2025  
-**Địa điểm:** Văn phòng AWS Việt Nam  
+Trong quá trình thực tập, tôi đã tham gia nhiều sự kiện chuyên môn do AWS Vietnam tổ chức. Mỗi sự kiện mang lại những kiến thức mới về Cloud, AI/ML, DevOps và Cloud Security, đồng thời giúp tôi định hướng rõ ràng hơn con đường phát triển sự nghiệp trong lĩnh vực điện toán đám mây.
+
+---
+
+## **Sự kiện 1 – AI/ML/GenAI on AWS**
+
+**Tên sự kiện:** AI/ML/GenAI on AWS  
+**Thời gian:** 8:30 – 12:00, ngày 15/11/2025  
+**Địa điểm:** Văn phòng AWS Vietnam  
 **Vai trò:** Người tham dự (Sinh viên)
 
-### Mô tả nội dung sự kiện
+### **Mô tả sự kiện**
 
-Buổi workshop buổi sáng tập trung vào **Security Pillar** của AWS Well-Architected Framework, cung cấp cái nhìn toàn diện về các nguyên tắc bảo mật trên cloud theo 5 trụ cột quan trọng.
+Buổi workshop giới thiệu tổng quan về các workload AI/ML và Generative AI hiện đại trên AWS. Nội dung bao gồm:
+- Tổng quan tình hình AI/ML tại Việt Nam  
+- Quy trình làm việc end-to-end với Amazon SageMaker  
+- Chuẩn bị dữ liệu, huấn luyện, tinh chỉnh, triển khai mô hình  
+- MLOps và demo trực tiếp trên SageMaker Studio  
 
-Phần mở đầu trình bày vai trò của Security Pillar và các nguyên tắc bảo mật nền tảng:
-- Least Privilege  
-- Zero Trust  
-- Defense in Depth  
-- Shared Responsibility Model  
-- Các mối đe dọa phổ biến trong môi trường cloud tại Việt Nam  
+Nửa sau của workshop tập trung vào Amazon Bedrock:
+- Kỹ thuật Prompt Engineering  
+- Retrieval-Augmented Generation (RAG)  
+- Lựa chọn Foundation Model  
+- Bedrock Agents và cơ chế đa bước  
+- Guardrails và demo xây chatbot GenAI  
 
-#### ⭐ **Pillar 1: Identity & Access Management (IAM)**  
-Nội dung bao gồm:
-- IAM Users, Roles, Policies  
-- Tránh long-term credentials  
-- IAM Identity Center: SSO, permission sets  
-- SCP & permission boundaries cho multi-account  
-- MFA, credential rotation, Access Analyzer  
-- Demo nhỏ: kiểm tra và mô phỏng IAM Policy  
+### **Giá trị đạt được**
 
-#### ⭐ **Pillar 2: Detection**  
-Bao gồm:
-- CloudTrail (org-level)  
-- GuardDuty, Security Hub  
-- Logging tại các tầng: VPC Flow Logs, S3, ALB  
-- Alerting & automation bằng EventBridge  
-- Khái niệm Detection-as-Code  
+- Hiểu rõ quy trình làm việc với SageMaker  
+- Tiếp cận thực tế với Bedrock, prompt engineering và RAG  
+- Hình dung rõ hơn ứng dụng AI tại Việt Nam  
+- Tăng động lực theo đuổi Cloud & AI/ML  
 
-#### ⭐ **Pillar 3: Infrastructure Protection**  
-Các nội dung chính:
-- VPC segmentation, public/private placement  
-- So sánh Security Groups vs NACLs  
-- AWS WAF, Shield, Network Firewall  
-- Bảo mật workload EC2, ECS/EKS  
+---
 
-#### ⭐ **Pillar 4: Data Protection**  
-Tập trung vào mã hóa và quản lý secrets:
-- KMS: key policy, grants, rotation  
-- Encryption at-rest & in-transit cho S3, EBS, RDS, DynamoDB  
-- Secrets Manager & Parameter Store  
-- Data classification & access guardrails  
+## **Sự kiện 2 – AWS DevOps Bootcamp**
 
-#### ⭐ **Pillar 5: Incident Response**  
-Bao gồm:
-- Quy trình IR theo AWS  
-- Playbook cho:  
-  - compromised IAM key  
-  - S3 public exposure  
-  - EC2 malware detection  
-- Snapshot, cô lập, thu thập evidence  
-- Tự động hóa IR bằng Lambda & Step Functions  
+**Tên sự kiện:** AWS DevOps Bootcamp  
+**Thời gian:** 8:30 – 17:00, ngày 17/11/2025  
+**Địa điểm:** Văn phòng AWS Vietnam  
+**Vai trò:** Người tham dự (Sinh viên)
 
-### Cách tôi tham gia
+### **Mô tả sự kiện**
 
-Là sinh viên tham dự, tôi lắng nghe, theo dõi nội dung trình bày và quan sát các phần demo. Dù không trực tiếp thực hành, tôi vẫn tiếp thu rõ ràng cấu trúc bảo mật của AWS và tư duy xây dựng hệ thống an toàn.
+Buổi bootcamp kéo dài cả ngày, cung cấp cái nhìn toàn diện về DevOps trên AWS.
 
-### Giá trị và bài học nhận được
+Nội dung chính:
+- Văn hoá DevOps, DORA metrics, quy trình incident management  
+- CI/CD với CodeCommit, CodeBuild, CodeDeploy, CodePipeline  
+- Infrastructure as Code bằng CloudFormation & AWS CDK  
+- Dịch vụ container: Docker, ECS, EKS, App Runner  
+- Monitoring & Observability: CloudWatch, X-Ray  
+- Demo thực tế và các case study từ doanh nghiệp  
 
-Từ workshop này, tôi đã:
-- Hiểu sâu 5 trụ cột bảo mật trong AWS Well-Architected Framework  
-- Nắm được mô hình IAM hiện đại, cơ chế phát hiện, bảo vệ workload  
-- Học về KMS, mã hóa, quản lý secrets và guardrails cho dữ liệu  
-- Nhận thức rõ các mối đe dọa thực tế tại Việt Nam và cách giảm thiểu  
-- Hiểu quy trình Incident Response và cách tự động hóa phản ứng sự cố  
-- Hình thành tư duy bảo mật hiện đại phù hợp kiến trúc cloud-native  
+### **Giá trị đạt được**
 
-### Định hướng nghề nghiệp
+- Nắm được quy trình DevOps hoàn chỉnh  
+- Hiểu rõ cách xây dựng CI/CD automation  
+- Nắm các kỹ thuật triển khai container và IaC  
+- Củng cố định hướng nghề nghiệp theo DevOps & Cloud Engineering  
 
-Sự kiện giúp tôi củng cố định hướng theo **Cloud Security / DevSecOps**.  
-Nó cũng giúp tôi hình dung rõ lộ trình học tập các chứng chỉ như **AWS Security Specialty** và **SA Professional**, góp phần xây dựng mục tiêu nghề nghiệp dài hạn trong lĩnh vực bảo mật cloud.
+---
+
+## **Sự kiện 3 – AWS Well-Architected Security Pillar Workshop**
+
+**Tên sự kiện:** AWS Well-Architected Security Pillar Workshop  
+**Thời gian:** 8:30 – 12:00, ngày 29/11/2025  
+**Địa điểm:** Văn phòng AWS Vietnam  
+**Vai trò:** Người tham dự (Sinh viên)
+
+### **Mô tả sự kiện**
+
+Workshop tập trung vào **Security Pillar** trong Well-Architected Framework và bao gồm 5 phần chính:
+
+1. **IAM – Identity & Access Management**
+   - IAM Users, Roles, Policies  
+   - IAM Identity Center, permission boundaries, MFA  
+   - Access Analyzer và kiểm tra chính sách  
+
+2. **Detection**
+   - CloudTrail, GuardDuty, Security Hub  
+   - VPC Flow Logs, ALB logs, S3 access logs  
+   - EventBridge cho cảnh báo tự động  
+
+3. **Infrastructure Protection**
+   - Phân tách mạng, SGs vs NACLs  
+   - WAF, Shield, Network Firewall  
+   - Bảo vệ workload EC2/ECS/EKS  
+
+4. **Data Protection**
+   - Mã hoá bằng KMS, key rotation  
+   - Secrets Manager, Parameter Store  
+   - Quy trình phân loại dữ liệu  
+
+5. **Incident Response**
+   - Playbook xử lý sự cố  
+   - Khắc phục key bị lộ, S3 public  
+   - Tự động hoá xử lý với Lambda & Step Functions  
+
+### **Giá trị đạt được**
+
+- Hiểu sâu về nguyên tắc bảo mật trên AWS  
+- Thành thạo các dịch vụ bảo mật cốt lõi  
+- Nâng cao tư duy bảo mật khi thiết kế hệ thống  
+- Định hướng rõ ràng hơn về DevSecOps & AWS Security Specialty  
+
+---
+
+# **Kết thúc mục Tóm Tắt Tham Gia Sự Kiện**

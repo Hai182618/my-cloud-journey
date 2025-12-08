@@ -1,32 +1,22 @@
 ---
-title : "Clean up"
-date: "2025-09-11"
-weight : 6
-chapter : false
-pre : " <b> 5.6. </b> "
+title: "Clean Up"
+date: "2025-11-30"
+weight: 6
+chapter: false
+pre: " <b> 5.6 </b> "
 ---
-Congratulations on completing this workshop! 
-In this workshop, you learned architecture patterns for accessing Amazon S3 without using the Public Internet. 
-+ By creating a gateway endpoint, you enabled direct communication between EC2 resources and Amazon S3, without traversing an Internet Gateway. 
-+ By creating an interface endpoint you extended S3 connectivity to resources running in your on-premises data center via AWS Site-to-Site VPN or Direct Connect. 
 
-#### clean up
-1. Navigate to Hosted Zones on the left side of Route 53 console. Click the name of *s3.us-east-1.amazonaws.com* zone. Click Delete and confirm deletion by typing delete. 
+# Clean Up Resources
 
-![hosted zone](/images/5-Workshop/5.6-Cleanup/delete-zone.png)
+To avoid unwanted costs after completing the workshop, please delete resources in the following order:
 
-2. Disassociate the Route 53 Resolver Rule - myS3Rule from "VPC Onprem" and Delete it. 
+## Deletion Order
+1. **EC2**: Terminate instances.
+2. **RDS & ElastiCache**: Delete database and cache cluster. Delete Subnet Groups and Snapshots.
+3. **Load Balancer & Target Group**: Delete ALB first, then Target Group.
+4. **CloudFront**: Disable distribution, wait for deployment to finish, then Delete.
+5. **S3**: Empty bucket (delete all objects) then Delete bucket.
+6. **NAT Gateway & Elastic IP**: Delete NAT Gateway -> Release Elastic IP.
+7. **VPC**: Delete VPC (this will automatically delete Subnets, Internet Gateway, Route Tables, and related Security Groups).
 
-![hosted zone](/images/5-Workshop/5.6-Cleanup/vpc.png)
-
-4. Open the CloudFormation console  and delete the two CloudFormation Stacks that you created for this lab:
-+ PLOnpremSetup
-+ PLCloudSetup
-
-![delete stack](/images/5-Workshop/5.6-Cleanup/delete-stack.png)
-
-5. Delete S3 buckets
-+ Open S3 console
-+ Choose the bucket we created for the lab, click and confirm empty. Click delete and confirm delete.
-
-![delete s3](/images/5-Workshop/5.6-Cleanup/delete-s3.png)
+> **Note**: Check the Billing Dashboard the next day to ensure there are no incurring costs.

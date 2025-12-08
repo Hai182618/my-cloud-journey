@@ -7,9 +7,7 @@ chapter: false
 
 # Báo Cáo Thực Tập
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Nội dung bên dưới chỉ mang tính tham khảo. Vui lòng **không sao chép y nguyên** cho báo cáo của bạn, bao gồm cả thông báo này.
-{{% /notice %}}
+
 
 ### Thông Tin Sinh Viên:
 &emsp; **Họ và Tên:** Nguyễn Minh Hải  

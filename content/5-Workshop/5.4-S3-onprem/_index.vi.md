@@ -1,5 +1,5 @@
 ---
-title : "Truy cập S3 từ môi trường truyền thống"
+title: "Truy cập S3 từ môi trường truyền thống"
 date: "2025-09-11"
 weight : 4 
 chapter : false

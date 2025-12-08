@@ -19,13 +19,13 @@ pre: "<b>1.3.</b>"
 
 | Day | Task                                                                                                                                                                        | Start Date | Completion Date |
 | --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- |
-| 15  | Module 02-01 – AWS Virtual Private Cloud (VPC)                                                                                                                              | 22/09/2025 | 22/09/2025      |
-| 16  | Module 02-02 – VPC Security & Multi-VPC features                                                                                                                            | 23/09/2025 | 23/09/2025      |
-| 17  | Module 02-03 – VPN, DirectConnect, LoadBalancer, Extra Resources                                                                                                            | 24/09/2025 | 24/09/2025      |
-| 18  | - Lab03-01 – Start with Amazon VPC & VPN Site-to-Site <br> - Lab03-01.1 – Subnets                                                                                           | 25/09/2025 | 25/09/2025      |
-| 19  | - Lab03-01.2 – Route Table <br> - Lab03-01.3 – Internet Gateway (IGW)                                                                                                       | 26/09/2025 | 26/09/2025      |
-| 20  | Lab03-01.4 – NAT Gateway                                                                                                                                                     | 27/09/2025 | 27/09/2025      |
-| 21  | - Lab03-02.1 – Security Group <br> - Lab03-02.2 – Network ACLs <br> - Lab03-02.3 – VPC Resource Map                                                                         | 28/09/2025 | 28/09/2025      |
+| 1  | Module 02-01 – AWS Virtual Private Cloud (VPC)                                                                                                                              | 22/09/2025 | 22/09/2025      |
+| 2  | Module 02-02 – VPC Security & Multi-VPC features                                                                                                                            | 23/09/2025 | 23/09/2025      |
+| 3  | Module 02-03 – VPN, DirectConnect, LoadBalancer, Extra Resources                                                                                                            | 24/09/2025 | 24/09/2025      |
+| 4  | - Lab03-01 – Start with Amazon VPC & VPN Site-to-Site <br> - Lab03-01.1 – Subnets                                                                                           | 25/09/2025 | 25/09/2025      |
+| 5  | - Lab03-01.2 – Route Table <br> - Lab03-01.3 – Internet Gateway (IGW)                                                                                                       | 26/09/2025 | 26/09/2025      |
+| 6  | Lab03-01.4 – NAT Gateway                                                                                                                                                     | 27/09/2025 | 27/09/2025      |
+| 7  | - Lab03-02.1 – Security Group <br> - Lab03-02.2 – Network ACLs <br> - Lab03-02.3 – VPC Resource Map                                                                         | 28/09/2025 | 28/09/2025      |
 
 ---
 

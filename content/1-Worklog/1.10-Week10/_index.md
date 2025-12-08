@@ -18,13 +18,13 @@ pre: "<b>1.10.</b>"
 
 | Day | Task                                                                                                                                                                                                                   | Start Date | Completion Date |
 | --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- |
-| 64  | - Module 06-01 – Database Concepts Review                                                                                                                                                                              | 10/11/2025 | 10/11/2025      |
-| 65  | - Module 06-02 – Amazon RDS & Amazon Aurora                                                                                                                                                                             | 11/11/2025 | 11/11/2025      |
-| 66  | - Module 06-03 – Redshift & ElastiCache                                                                                                                                                                                 | 12/11/2025 | 12/11/2025      |
-| 67  | - Lab05-2.1 – Create VPC <br> - Lab05-2.2 – Create EC2 Security Group <br> - Lab05-2.3 – Create RDS Security Group <br> - Lab05-2.4 – Create DB Subnet Group                                                            | 13/11/2025 | 13/11/2025      |
-| 68  | - Lab05-3 – Create EC2 Instance <br> - Lab05-4 – Create RDS Database Instance                                                                                                                                            | 14/11/2025 | 14/11/2025      |
-| 69  | - Lab05-5 – Application Deployment <br> - Lab05-6 – Backup & Restore                                                                                                                                                     | 15/11/2025 | 15/11/2025      |
-| 70  | - Lab05-7 – Clean Up Resources <br> - Lab43-01 → Lab43-06 (EC2 Connect, Oracle/MSSQL Config) <br> - Lab43-07 → Lab43-17 (Schema Conversion, Migration Tasks, Events, Logs, Troubleshooting)                             | 16/11/2025 | 16/11/2025      |
+| 1  | - Module 06-01 – Database Concepts Review                                                                                                                                                                              | 10/11/2025 | 10/11/2025      |
+| 2  | - Module 06-02 – Amazon RDS & Amazon Aurora                                                                                                                                                                             | 11/11/2025 | 11/11/2025      |
+| 3  | - Module 06-03 – Redshift & ElastiCache                                                                                                                                                                                 | 12/11/2025 | 12/11/2025      |
+| 4  | - Lab05-2.1 – Create VPC <br> - Lab05-2.2 – Create EC2 Security Group <br> - Lab05-2.3 – Create RDS Security Group <br> - Lab05-2.4 – Create DB Subnet Group                                                            | 13/11/2025 | 13/11/2025      |
+| 5  | - Lab05-3 – Create EC2 Instance <br> - Lab05-4 – Create RDS Database Instance                                                                                                                                            | 14/11/2025 | 14/11/2025      |
+| 6  | - Lab05-5 – Application Deployment <br> - Lab05-6 – Backup & Restore                                                                                                                                                     | 15/11/2025 | 15/11/2025      |
+| 7  | - Lab05-7 – Clean Up Resources <br> - Lab43-01 → Lab43-06 (EC2 Connect, Oracle/MSSQL Config) <br> - Lab43-07 → Lab43-17 (Schema Conversion, Migration Tasks, Events, Logs, Troubleshooting)                             | 16/11/2025 | 16/11/2025      |
 
 ---
 

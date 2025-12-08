@@ -19,13 +19,13 @@ pre: "<b>1.4.</b>"
 
 | Day | Task                                                                                                                                                                                                                     | Start Date | Completion Date |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- |
-| 22  | - Lab03-03 – Create VPC <br> - Lab03-03.2 – Create Subnet                                                                                                                                                                 | 29/09/2025 | 29/09/2025      |
-| 23  | - Lab03-03.3 – Create an Internet Gateway (IGW) <br> - Lab03-03.4 – Create Route Table for Outbound Internet Routing via IGW                                                                                              | 30/09/2025 | 30/09/2025      |
-| 24  | - Lab03-03.5 – Create Security Groups <br> - Lab03-04.1 – Create EC2 Instances in Subnets                                                                                                                                 | 01/10/2025 | 01/10/2025      |
-| 25  | - Lab03-04.2 – Test Connection <br> - Lab03-04.3 – Create NAT Gateway                                                                                                                                                     | 02/10/2025 | 02/10/2025      |
-| 26  | Lab03-04.5 – EC2 Instance Connect Endpoint                                                                                                                                                                                | 03/10/2025 | 03/10/2025      |
-| 27  | - Lab10-01 – Set up Hybrid DNS with Route 53 Resolver (Introduction) <br> - Lab10-02.1 – Generate Key Pair <br> - Lab10-02.2 – Initialize CloudFormation Template                                                        | 04/10/2025 | 04/10/2025      |
-| 28  | - Lab10-02.3 – Configure Security Group <br> - Lab10-03 – Connect to RDGW <br> - Lab10-05 – Set up DNS <br> - Lab10-05.1 → 05.4 – Outbound/Inbound Endpoint, Resolver Rules, Testing <br> - Lab10-06 – Clean Up Resources | 05/10/2025 | 05/10/2025      |
+| 1  | - Lab03-03 – Create VPC <br> - Lab03-03.2 – Create Subnet                                                                                                                                                                 | 29/09/2025 | 29/09/2025      |
+| 2  | - Lab03-03.3 – Create an Internet Gateway (IGW) <br> - Lab03-03.4 – Create Route Table for Outbound Internet Routing via IGW                                                                                              | 30/09/2025 | 30/09/2025      |
+| 3  | - Lab03-03.5 – Create Security Groups <br> - Lab03-04.1 – Create EC2 Instances in Subnets                                                                                                                                 | 01/10/2025 | 01/10/2025      |
+| 4  | - Lab03-04.2 – Test Connection <br> - Lab03-04.3 – Create NAT Gateway                                                                                                                                                     | 02/10/2025 | 02/10/2025      |
+| 5  | Lab03-04.5 – EC2 Instance Connect Endpoint                                                                                                                                                                                | 03/10/2025 | 03/10/2025      |
+| 6  | - Lab10-01 – Set up Hybrid DNS with Route 53 Resolver (Introduction) <br> - Lab10-02.1 – Generate Key Pair <br> - Lab10-02.2 – Initialize CloudFormation Template                                                        | 04/10/2025 | 04/10/2025      |
+| 7  | - Lab10-02.3 – Configure Security Group <br> - Lab10-03 – Connect to RDGW <br> - Lab10-05 – Set up DNS <br> - Lab10-05.1 → 05.4 – Outbound/Inbound Endpoint, Resolver Rules, Testing <br> - Lab10-06 – Clean Up Resources | 05/10/2025 | 05/10/2025      |
 
 ---
 

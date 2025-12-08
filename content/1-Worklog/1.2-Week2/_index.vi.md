@@ -19,13 +19,13 @@ pre: "<b>1.2.</b>"
 
 | Day | Task                                                                                                                                                                                             | Start Date | Completion Date |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- |
-| 8   | - Lab01.01 – Tạo AWS account <br> - Lab01.02 – Cài đặt Virtual MFA Device                                                                                                                        | 15/09/2025 | 15/09/2025      |
-| 9   | Lab01.03 – Tạo admin group và admin user                                                                                                                                                         | 16/09/2025 | 16/09/2025      |
-| 10  | Lab01.04 – Hỗ trợ xác thực tài khoản                                                                                                                                                             | 17/09/2025 | 17/09/2025      |
-| 11  | - Lab07.01 – Tạo Budget qua Template <br> - Lab07.02 – Tạo Cost Budget Tutorial                                                                                                                 | 18/09/2025 | 18/09/2025      |
-| 12  | - Lab07.03 – Tạo Usage Budget <br> - Lab07.04 – Tạo Reservation Instance Budget                                                                                                                 | 19/09/2025 | 19/09/2025      |
-| 13  | - Lab07.05 – Tạo Savings Plans Budget <br> - Lab07.06 – Dọn dẹp ngân sách                                                                                                                       | 20/09/2025 | 20/09/2025      |
-| 14  | Lab09.01 → Lab09.04 – AWS Support Packages & Requests                                                                                                                                            | 21/09/2025 | 21/09/2025      |
+| 1   | - Lab01.01 – Tạo AWS account <br> - Lab01.02 – Cài đặt Virtual MFA Device                                                                                                                        | 15/09/2025 | 15/09/2025      |
+| 2   | Lab01.03 – Tạo admin group và admin user                                                                                                                                                         | 16/09/2025 | 16/09/2025      |
+| 3  | Lab01.04 – Hỗ trợ xác thực tài khoản                                                                                                                                                             | 17/09/2025 | 17/09/2025      |
+| 4  | - Lab07.01 – Tạo Budget qua Template <br> - Lab07.02 – Tạo Cost Budget Tutorial                                                                                                                 | 18/09/2025 | 18/09/2025      |
+| 5  | - Lab07.03 – Tạo Usage Budget <br> - Lab07.04 – Tạo Reservation Instance Budget                                                                                                                 | 19/09/2025 | 19/09/2025      |
+| 6  | - Lab07.05 – Tạo Savings Plans Budget <br> - Lab07.06 – Dọn dẹp ngân sách                                                                                                                       | 20/09/2025 | 20/09/2025      |
+| 7  | Lab09.01 → Lab09.04 – AWS Support Packages & Requests                                                                                                                                            | 21/09/2025 | 21/09/2025      |
 
 ---
 

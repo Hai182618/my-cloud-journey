@@ -1,37 +1,22 @@
 ---
-title : "Dọn dẹp tài nguyên"
-date: "2025-09-11"
-weight : 6
-chapter : false
-pre : " <b> 5.6. </b> "
+title: "Dọn dẹp tài nguyên"
+date: "2025-11-30"
+weight: 6
+chapter: false
+pre: " <b> 5.6 </b> "
 ---
 
-#### Dọn dẹp tài nguyên
+# Dọn dẹp tài nguyên (Clean Up)
 
-Xin chúc mừng bạn đã hoàn thành xong lab này!
-Trong lab này, bạn đã học về các mô hình kiến trúc để truy cập Amazon S3 mà không sử dụng Public Internet.
+Để tránh phát sinh chi phí không mong muốn sau khi hoàn thành workshop, hãy xóa các tài nguyên theo thứ tự sau:
 
-+ Bằng cách tạo Gateway endpoint, bạn đã cho phép giao tiếp trực tiếp giữa các tài nguyên EC2 và Amazon S3, mà không đi qua Internet Gateway.
-Bằng cách tạo Interface endpoint, bạn đã mở rộng kết nối S3 đến các tài nguyên chạy trên trung tâm dữ liệu trên chỗ của bạn thông qua AWS Site-to-Site VPN hoặc Direct Connect.
+## Thứ tự xóa
+1. **EC2**: Terminate các instance.
+2. **RDS & ElastiCache**: Delete database và cache cluster. Xóa cả Subnet Group và Snapshots.
+3. **Load Balancer & Target Group**: Delete ALB sau đó đến Target Group.
+4. **CloudFront**: Disable distribution, đợi deploy xong rồi Delete.
+5. **S3**: Empty bucket (xóa hết object) sau đó Delete bucket.
+6. **NAT Gateway & Elastic IP**: Delete NAT Gateway -> Release Elastic IP.
+7. **VPC**: Delete VPC (sẽ tự động xóa Subnets, Internet Gateway, Route Table, Security Group liên quan).
 
-#### Dọn dẹp
-1. Điều hướng đến Hosted Zones trên phía trái của bảng điều khiển Route 53. Nhấp vào tên của  s3.us-east-1.amazonaws.com zone. Nhấp vào Delete và xác nhận việc xóa bằng cách nhập từ khóa "delete".
-
-![hosted zone](/images/5-Workshop/5.6-Cleanup/delete-zone.png)
-
-2. Disassociate Route 53 Resolver Rule - myS3Rule from "VPC Onprem" and Delete it. 
-
-![hosted zone](/images/5-Workshop/5.6-Cleanup/vpc.png)
-
-4.Mở console của CloudFormation và xóa hai stack CloudFormation mà bạn đã tạo cho bài thực hành này:
-+ PLOnpremSetup
-+ PLCloudSetup
-
-![delete stack](/images/5-Workshop/5.6-Cleanup/delete-stack.png)
-
-5. Xóa các S3 bucket
-
-+ Mở bảng điều khiển S3
-+ Chọn bucket chúng ta đã tạo cho lab, nhấp chuột và xác nhận là empty. Nhấp Delete và xác nhận delete.
-+ 
-![delete s3](/images/5-Workshop/5.6-Cleanup/delete-s3.png)
+> **Lưu ý**: Kiểm tra kỹ Billing Dashboard vào ngày hôm sau để chắc chắn không còn chi phí phát sinh.

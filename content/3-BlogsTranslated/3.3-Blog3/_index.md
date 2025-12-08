@@ -113,7 +113,7 @@ To enable third‑party plugins in Amazon Q Developer:
 
 {{< figure src="/images/blog3/Wiz-Plugin.png" caption="Wiz plugin configuration screen." >}}
 
-{{< figure src="/images/blog3/Wiz-Integration.png" caption="Wiz credentials: Client ID, Secret, and Endpoint." >}}
+{{< figure src="/images/blog3/Wiz-Intergation.png" caption="Wiz credentials: Client ID, Secret, and Endpoint." >}}
 
 ---
 

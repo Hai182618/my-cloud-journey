@@ -19,13 +19,13 @@ pre: "<b>1.4.</b>"
 
 | Day | Task                                                                                                                                                                                                                     | Start Date | Completion Date |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- |
-| 22  | - Lab03-03 – Tạo VPC <br> - Lab03-03.2 – Tạo Subnet                                                                                                                                                                       | 29/09/2025 | 29/09/2025      |
-| 23  | - Lab03-03.3 – Tạo Internet Gateway (IGW) <br> - Lab03-03.4 – Tạo Route Table cho outbound internet qua IGW                                                                                                               | 30/09/2025 | 30/09/2025      |
-| 24  | - Lab03-03.5 – Tạo Security Groups <br> - Lab03-04.1 – Tạo EC2 Instances trong các Subnet                                                                                                                                 | 01/10/2025 | 01/10/2025      |
-| 25  | - Lab03-04.2 – Kiểm tra kết nối <br> - Lab03-04.3 – Tạo NAT Gateway                                                                                                               | 02/10/2025 | 02/10/2025      |
-| 26  | Lab03-04.5 – EC2 Instance Connect Endpoint                                                                                                                                                                                | 03/10/2025 | 03/10/2025      |
-| 27  | - Lab10-01 – Cài đặt Hybrid DNS với Route 53 Resolver (Giới thiệu) <br> - Lab10-02.1 – Tạo Key Pair <br> - Lab10-02.2 – Khởi tạo CloudFormation Template                          | 04/10/2025 | 04/10/2025      |
-| 28  | - Lab10-02.3 – Cấu hình Security Group <br> - Lab10-03 – Kết nối RDGW <br> - Lab10-05 – Thiết lập DNS <br> - Lab10-05.1 → 05.4 – Outbound/Inbound Endpoint, Resolver Rules, Test <br> - Lab10-06 – Dọn dẹp tài nguyên | 05/10/2025 | 05/10/2025      |
+| 1  | - Lab03-03 – Tạo VPC <br> - Lab03-03.2 – Tạo Subnet                                                                                                                                                                       | 29/09/2025 | 29/09/2025      |
+| 2  | - Lab03-03.3 – Tạo Internet Gateway (IGW) <br> - Lab03-03.4 – Tạo Route Table cho outbound internet qua IGW                                                                                                               | 30/09/2025 | 30/09/2025      |
+| 3  | - Lab03-03.5 – Tạo Security Groups <br> - Lab03-04.1 – Tạo EC2 Instances trong các Subnet                                                                                                                                 | 01/10/2025 | 01/10/2025      |
+| 4  | - Lab03-04.2 – Kiểm tra kết nối <br> - Lab03-04.3 – Tạo NAT Gateway                                                                                                               | 02/10/2025 | 02/10/2025      |
+| 5  | Lab03-04.5 – EC2 Instance Connect Endpoint                                                                                                                                                                                | 03/10/2025 | 03/10/2025      |
+| 6  | - Lab10-01 – Cài đặt Hybrid DNS với Route 53 Resolver (Giới thiệu) <br> - Lab10-02.1 – Tạo Key Pair <br> - Lab10-02.2 – Khởi tạo CloudFormation Template                          | 04/10/2025 | 04/10/2025      |
+| 7  | - Lab10-02.3 – Cấu hình Security Group <br> - Lab10-03 – Kết nối RDGW <br> - Lab10-05 – Thiết lập DNS <br> - Lab10-05.1 → 05.4 – Outbound/Inbound Endpoint, Resolver Rules, Test <br> - Lab10-06 – Dọn dẹp tài nguyên | 05/10/2025 | 05/10/2025      |
 
 ---
 

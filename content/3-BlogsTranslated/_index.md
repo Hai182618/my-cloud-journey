@@ -6,9 +6,7 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+
 
 This section contains the AWS technical blogs that you have translated. Each blog covers a different topic ranging from computing performance, scalable data architectures, to AI-powered developer tools.
 

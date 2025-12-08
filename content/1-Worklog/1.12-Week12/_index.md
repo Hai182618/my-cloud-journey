@@ -18,13 +18,13 @@ pre: "<b>1.12.</b>"
 
 | Day | Task                                                                                                                                                                                                                                 | Start Date | Completion Date |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- |
-| 78  | - Lab40-2.1 – Preparing the Database <br> - Lab40-2.2 – Building a Database                                                                                                                   | 24/11/2025 | 24/11/2025      |
-| 79  | - Lab40-3.1 – Data in the Table <br> - Lab40-3.2 – Cost <br> - Lab40-3.3 – Tagging & Cost Allocation                                                                                          | 25/11/2025 | 25/11/2025      |
-| 80  | - Lab40-3.4 – Usage <br> - Lab40-3.5 – Additional Result Query <br> - Lab40-4 – Clean Up Resources                                                                                            | 26/11/2025 | 26/11/2025      |
-| 81  | - Lab60-1 – CloudShell <br> - Lab60-2 – Console <br> - Lab60-3 – SDK                                                                                                                           | 27/11/2025 | 27/11/2025      |
-| 82  | - Lab70-1.1 – Create Cloud9 Instance <br> - Lab70-1.2 – Download Dataset <br> - Lab70-1.3 – Upload Dataset to S3                                                                              | 28/11/2025 | 28/11/2025      |
-| 83  | - Lab70-2.1 – Setting Up DataBrew <br> - Lab70-2.2 – Data Profiling <br> - Lab70-2.3 – Clean & Transform Data                                                                                 | 29/11/2025 | 29/11/2025      |
-| 84  | - Lab72-2 → 72-13 – Full Data Lifecycle <br> - Lab73-3 → 73-5 – Build, Improve & Create Interactive Dashboard                                                                                  | 30/11/2025 | 30/11/2025      |
+| 1  | - Lab40-2.1 – Preparing the Database <br> - Lab40-2.2 – Building a Database                                                                                                                   | 24/11/2025 | 24/11/2025      |
+| 2  | - Lab40-3.1 – Data in the Table <br> - Lab40-3.2 – Cost <br> - Lab40-3.3 – Tagging & Cost Allocation                                                                                          | 25/11/2025 | 25/11/2025      |
+| 3  | - Lab40-3.4 – Usage <br> - Lab40-3.5 – Additional Result Query <br> - Lab40-4 – Clean Up Resources                                                                                            | 26/11/2025 | 26/11/2025      |
+| 4  | - Lab60-1 – CloudShell <br> - Lab60-2 – Console <br> - Lab60-3 – SDK                                                                                                                           | 27/11/2025 | 27/11/2025      |
+| 5  | - Lab70-1.1 – Create Cloud9 Instance <br> - Lab70-1.2 – Download Dataset <br> - Lab70-1.3 – Upload Dataset to S3                                                                              | 28/11/2025 | 28/11/2025      |
+| 6  | - Lab70-2.1 – Setting Up DataBrew <br> - Lab70-2.2 – Data Profiling <br> - Lab70-2.3 – Clean & Transform Data                                                                                 | 29/11/2025 | 29/11/2025      |
+| 7  | - Lab72-2 → 72-13 – Full Data Lifecycle <br> - Lab73-3 → 73-5 – Build, Improve & Create Interactive Dashboard                                                                                  | 30/11/2025 | 30/11/2025      |
 
 ---
 

@@ -19,13 +19,13 @@ pre: "<b>1.8.</b>"
 
 | Day | Task                                                                                                                                                                                                | Start Date | Completion Date |
 | --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- |
-| 50  | Module 05-02 – Amazon Identity and Access Management (IAM)                                                                                                                                           | 27/10/2025 | 27/10/2025      |
-| 51  | Module 05-03 – Amazon Cognito                                                                                                                                                                        | 28/10/2025 | 28/10/2025      |
-| 52  | Module 05-04 – AWS Organization                                                                                                                                                                      | 29/10/2025 | 29/10/2025      |
-| 53  | Module 05-05 – AWS Identity Center                                                                                                                                                                   | 30/10/2025 | 30/10/2025      |
-| 54  | Module 05-06 – Amazon Key Management Service (KMS)                                                                                                                                                    | 31/10/2025 | 31/10/2025      |
-| 55  | Module 05-07 – AWS Security Hub                                                                                                                                                                      | 01/11/2025 | 01/11/2025      |
-| 56  | - Module 05-08 – Thực hành & nghiên cứu bổ sung <br> - Lab18-02 – Kích hoạt Security Hub <br> - Lab18-03 – Đánh điểm từng nhóm tiêu chí <br> - Lab18-04 – Dọn dẹp tài nguyên                        | 02/11/2025 | 02/11/2025      |
+| 1  | Module 05-02 – Amazon Identity and Access Management (IAM)                                                                                                                                           | 27/10/2025 | 27/10/2025      |
+| 2  | Module 05-03 – Amazon Cognito                                                                                                                                                                        | 28/10/2025 | 28/10/2025      |
+| 3  | Module 05-04 – AWS Organization                                                                                                                                                                      | 29/10/2025 | 29/10/2025      |
+| 4  | Module 05-05 – AWS Identity Center                                                                                                                                                                   | 30/10/2025 | 30/10/2025      |
+| 5  | Module 05-06 – Amazon Key Management Service (KMS)                                                                                                                                                    | 31/10/2025 | 31/10/2025      |
+| 6  | Module 05-07 – AWS Security Hub                                                                                                                                                                      | 01/11/2025 | 01/11/2025      |
+| 7  | - Module 05-08 – Thực hành & nghiên cứu bổ sung <br> - Lab18-02 – Kích hoạt Security Hub <br> - Lab18-03 – Đánh điểm từng nhóm tiêu chí <br> - Lab18-04 – Dọn dẹp tài nguyên                        | 02/11/2025 | 02/11/2025      |
 
 ---
 

@@ -18,13 +18,13 @@ pre: "<b>1.11.</b>"
 
 | Day | Task                                                                                                                                                                                                             | Start Date | Completion Date |
 | --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- |
-| 71  | - Lab35-3.1 – Create S3 Bucket <br> - Lab35-3.2 – Creating a Delivery Stream                                                                                               | 17/11/2025 | 17/11/2025      |
-| 72  | - Lab35-3.3 – Create Sample Data <br> - Lab35-4.1 – Create Glue Crawler <br> - Lab35-4.2 – Data Check                                                                      | 18/11/2025 | 18/11/2025      |
-| 73  | - Lab35-5.1 – Explain Code (VN version) <br> - Lab35-5.2 – S3 Store Output <br> - Lab35-5.3 – Session Connect Setup                                                        | 19/11/2025 | 19/11/2025      |
-| 74  | - Lab35-6.1 – Analysis with Athena <br> - Lab35-6.2 – Visualize with QuickSight <br> - Lab35-7 – Clean Up Resources                                                        | 20/11/2025 | 20/11/2025      |
-| 75  | - Lab39-1 – Hands-on DynamoDB <br> - Lab39-2 – Explore DynamoDB <br> - Lab39-3 – Explore DynamoDB Console                                                                   | 21/11/2025 | 21/11/2025      |
-| 76  | - Lab39-4 – Back Up <br> - Lab39-5 – Clean Up <br> - Lab39-6 – Advanced Design Patterns for DynamoDB                                                                       | 22/11/2025 | 22/11/2025      |
-| 77  | - Lab39-7 – Build & Deploy Global Serverless with DynamoDB <br> - Lab39-8 – Serverless Event-Driven Architecture with DynamoDB                                            | 23/11/2025 | 23/11/2025      |
+| 1  | - Lab35-3.1 – Create S3 Bucket <br> - Lab35-3.2 – Creating a Delivery Stream                                                                                               | 17/11/2025 | 17/11/2025      |
+| 2  | - Lab35-3.3 – Create Sample Data <br> - Lab35-4.1 – Create Glue Crawler <br> - Lab35-4.2 – Data Check                                                                      | 18/11/2025 | 18/11/2025      |
+| 3  | - Lab35-5.1 – Explain Code (VN version) <br> - Lab35-5.2 – S3 Store Output <br> - Lab35-5.3 – Session Connect Setup                                                        | 19/11/2025 | 19/11/2025      |
+| 4  | - Lab35-6.1 – Analysis with Athena <br> - Lab35-6.2 – Visualize with QuickSight <br> - Lab35-7 – Clean Up Resources                                                        | 20/11/2025 | 20/11/2025      |
+| 5  | - Lab39-1 – Hands-on DynamoDB <br> - Lab39-2 – Explore DynamoDB <br> - Lab39-3 – Explore DynamoDB Console                                                                   | 21/11/2025 | 21/11/2025      |
+| 6  | - Lab39-4 – Back Up <br> - Lab39-5 – Clean Up <br> - Lab39-6 – Advanced Design Patterns for DynamoDB                                                                       | 22/11/2025 | 22/11/2025      |
+| 7  | - Lab39-7 – Build & Deploy Global Serverless with DynamoDB <br> - Lab39-8 – Serverless Event-Driven Architecture with DynamoDB                                            | 23/11/2025 | 23/11/2025      |
 
 ---
 

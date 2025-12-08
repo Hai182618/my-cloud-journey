@@ -18,13 +18,13 @@ pre: "<b>1.12.</b>"
 
 | Day | Task                                                                                                                                                                                                          | Start Date | Completion Date |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- |
-| 78  | - Chuẩn bị database (Lab40-2.1) <br> - Xây dựng database (Lab40-2.2)                                                                                                   | 24/11/2025 | 24/11/2025      |
-| 79  | - Kiểm tra dữ liệu trong bảng (Lab40-3.1) <br> - Phân tích chi phí (Lab40-3.2) <br> - Tagging & Cost Allocation (Lab40-3.3)                                           | 25/11/2025 | 25/11/2025      |
-| 80  | - Usage Analysis (Lab40-3.4) <br> - Additional Result Query (Lab40-3.5) <br> - Clean Up Resources                                                                       | 26/11/2025 | 26/11/2025      |
-| 81  | - CloudShell (Lab60-1) <br> - Console (Lab60-2) <br> - SDK (Lab60-3)                                                                                                    | 27/11/2025 | 27/11/2025      |
-| 82  | - Tạo Cloud9 Instance <br> - Tải Dataset <br> - Upload Dataset lên S3                                                                                                   | 28/11/2025 | 28/11/2025      |
-| 83  | - Thiết lập DataBrew <br> - Data Profiling <br> - Làm sạch & Transform dữ liệu                                                                                         | 29/11/2025 | 29/11/2025      |
-| 84  | - Lab72-2 → Lab72-13: Toàn bộ vòng đời dữ liệu <br> - Lab73-3 → Lab73-5: Xây dựng, cải thiện và hoàn thiện Dashboard                                                   | 30/11/2025 | 30/11/2025      |
+| 1  | - Chuẩn bị database (Lab40-2.1) <br> - Xây dựng database (Lab40-2.2)                                                                                                   | 24/11/2025 | 24/11/2025      |
+| 2  | - Kiểm tra dữ liệu trong bảng (Lab40-3.1) <br> - Phân tích chi phí (Lab40-3.2) <br> - Tagging & Cost Allocation (Lab40-3.3)                                           | 25/11/2025 | 25/11/2025      |
+| 3  | - Usage Analysis (Lab40-3.4) <br> - Additional Result Query (Lab40-3.5) <br> - Clean Up Resources                                                                       | 26/11/2025 | 26/11/2025      |
+| 4  | - CloudShell (Lab60-1) <br> - Console (Lab60-2) <br> - SDK (Lab60-3)                                                                                                    | 27/11/2025 | 27/11/2025      |
+| 5  | - Tạo Cloud9 Instance <br> - Tải Dataset <br> - Upload Dataset lên S3                                                                                                   | 28/11/2025 | 28/11/2025      |
+| 6  | - Thiết lập DataBrew <br> - Data Profiling <br> - Làm sạch & Transform dữ liệu                                                                                         | 29/11/2025 | 29/11/2025      |
+| 7  | - Lab72-2 → Lab72-13: Toàn bộ vòng đời dữ liệu <br> - Lab73-3 → Lab73-5: Xây dựng, cải thiện và hoàn thiện Dashboard                                                   | 30/11/2025 | 30/11/2025      |
 
 ---
 

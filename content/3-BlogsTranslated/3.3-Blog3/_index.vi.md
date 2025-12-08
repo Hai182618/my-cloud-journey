@@ -113,7 +113,7 @@ Wiz hỗ trợ quản lý tư thế bảo mật và phân tích rủi ro trên h
 
 {{< figure src="/images/blog3/Wiz-Plugin.png" caption="Màn hình cấu hình plugin Wiz." >}}
 
-{{< figure src="/images/blog3/Wiz-Integration.png" caption="Thông tin Client ID, Secret và Endpoint của Wiz." >}}
+{{< figure src="/images/blog3/Wiz-Intergation.png" caption="Wiz credentials: Client ID, Secret, and Endpoint." >}}
 
 ---
 

@@ -1,85 +1,114 @@
 ---
-title: "Event Participated"
-date: "2025-11-29"
-weight: 4
+title: "Event Participation Summary"
+date: "2025-12-01"
+weight: 1
 chapter: false
-pre: "<b>4.</b>"
 ---
 
-## Event 3 – AWS Well-Architected Security Pillar Workshop
+# Event Participation Summary
+
+During my internship, I participated in several professional events organized by AWS Vietnam. Each event provided valuable insights into Cloud, AI/ML, DevOps, and Cloud Security. These experiences helped strengthen both my technical understanding and my career orientation in cloud engineering.
+
+---
+
+## **Event 1 – AI/ML/GenAI on AWS**
+
+**Event Name:** AI/ML/GenAI on AWS  
+**Date & Time:** 8:30 AM – 12:00 PM, November 15, 2025  
+**Location:** AWS Vietnam Office  
+**Role:** Attendee (Student)
+
+### **Description**
+
+This workshop introduced modern AI/ML and Generative AI workloads on AWS. The event included an overview of the current AI/ML landscape in Vietnam, discussions on Amazon SageMaker workflows, data preparation, model training and deployment, and MLOps best practices.
+
+The second half focused on Generative AI using Amazon Bedrock, covering:
+- Prompt engineering techniques  
+- Retrieval-Augmented Generation (RAG)  
+- Foundation Model selection  
+- Bedrock Agents and orchestration  
+- Safety guardrails and live demos  
+
+### **Outcomes / Value Gained**
+
+- Clear understanding of SageMaker workflows  
+- Practical exposure to Bedrock, RAG, and prompt engineering  
+- Awareness of real AI applications in Vietnam  
+- Increased motivation to pursue Cloud & AI/ML career paths  
+
+---
+
+## **Event 2 – AWS DevOps Bootcamp**
+
+**Event Name:** AWS DevOps Bootcamp  
+**Date & Time:** 8:30 AM – 5:00 PM, November 17, 2025  
+**Location:** AWS Vietnam Office  
+**Role:** Attendee (Student)
+
+### **Description**
+
+This full-day bootcamp provided an in-depth exploration of DevOps principles, CI/CD automation, and containerized application deployment on AWS.
+
+Key topics:
+- DevOps culture, DORA metrics, incident management  
+- CI/CD pipelines with CodeCommit, CodeBuild, CodeDeploy, CodePipeline  
+- Infrastructure as Code using CloudFormation & AWS CDK  
+- Container services: Docker, ECS, EKS, App Runner  
+- Monitoring and observability with CloudWatch and X-Ray  
+- Real-world case studies and live demos  
+
+### **Outcomes / Value Gained**
+
+- Strong understanding of end-to-end DevOps workflows  
+- CI/CD automation experience with AWS developer tools  
+- Knowledge of container orchestration and IaC  
+- Better career direction toward DevOps & Cloud Engineering  
+
+---
+
+## **Event 3 – AWS Well-Architected Security Pillar Workshop**
 
 **Event Name:** AWS Well-Architected Security Pillar Workshop  
 **Date & Time:** 08:30 AM – 12:00 PM, November 29, 2025  
 **Location:** AWS Vietnam Office  
 **Role:** Attendee (Student)
 
-### Description of Event Activities
+### **Description**
 
-This half-day workshop focused on the **Security Pillar** of the AWS Well-Architected Framework, providing a detailed and structured view of cloud security best practices based on five foundational pillars.
+This workshop focused on the Security Pillar of the AWS Well-Architected Framework and covered five major components:
 
-The session began with an overview of the Security Pillar and its role within the Well-Architected Framework. Core cloud security principles were introduced, including:
-- Least Privilege  
-- Zero Trust  
-- Defense in Depth  
-- Shared Responsibility Model  
-- Common cloud security threats in Vietnam  
+1. **Identity & Access Management (IAM)**  
+   - IAM Users, Roles, Policies  
+   - IAM Identity Center, permission boundaries, MFA  
+   - Access Analyzer, policy validation  
 
-#### ⭐ **Pillar 1: Identity & Access Management (IAM)**  
-The workshop’s first pillar explored modern IAM architecture:
-- IAM Users, Roles, and Policies  
-- Eliminating long-term credentials  
-- IAM Identity Center for SSO and centralized permission management  
-- SCPs and permission boundaries for multi-account environments  
-- MFA, credential rotation, and Access Analyzer  
-- Mini demo on IAM Policy validation and access simulation  
+2. **Detection**  
+   - CloudTrail, GuardDuty, Security Hub  
+   - VPC Flow Logs, ALB/S3 logs  
+   - EventBridge for automated alerts  
 
-#### ⭐ **Pillar 2: Detection**  
-This segment covered continuous monitoring and detection:
-- CloudTrail (organization-level logging)  
-- GuardDuty for threat detection  
-- Security Hub for compliance and posture management  
-- VPC Flow Logs, ALB Logs, S3 logs  
-- EventBridge for alerting and automation  
-- Detection-as-Code concepts  
+3. **Infrastructure Protection**  
+   - Network segmentation, SGs vs NACLs  
+   - WAF, Shield, Network Firewall  
+   - EC2/ECS/EKS protection  
 
-#### ⭐ **Pillar 3: Infrastructure Protection**  
-Topics included:
-- VPC segmentation and network isolation  
-- Public vs private subnet placement  
-- Security Groups vs Network ACLs  
-- AWS WAF, Shield, and Network Firewall  
-- EC2, ECS, and EKS workload protection practices  
+4. **Data Protection**  
+   - KMS encryption, key rotation  
+   - Secrets Manager, Parameter Store  
+   - Data classification and guardrails  
 
-#### ⭐ **Pillar 4: Data Protection**  
-This section emphasized encryption and secret management:
-- AWS KMS: key policies, grants, rotation  
-- Encryption at rest & in transit (S3, EBS, RDS, DynamoDB)  
-- Secrets Manager & Parameter Store patterns  
-- Data classification & guardrails  
+5. **Incident Response**  
+   - IR playbook structure  
+   - Key compromise, S3 public access remediation  
+   - Snapshot, isolation, automated workflows  
 
-#### ⭐ **Pillar 5: Incident Response**  
-The workshop concluded with incident response fundamentals:
-- AWS IR lifecycle and playbook structure  
-- Handling compromised IAM keys  
-- S3 public exposure remediation  
-- Malware detection on EC2  
-- Snapshot, isolation, and evidence collection  
-- Automated IR using Lambda and Step Functions  
+### **Outcomes / Value Gained**
 
-### Participation & Role
+- Deep understanding of cloud security fundamentals  
+- Practical exposure to AWS security tools  
+- Improved awareness of encryption, IAM, and detection systems  
+- Clearer path toward Cloud Security, DevSecOps, and AWS certifications  
 
-As a student attendee, I primarily listened to the presentations and followed the explanations and demos. Although not performing hands-on exercises, I gained a comprehensive understanding of cloud security principles and AWS security services.
+---
 
-### Outcomes & Value Gained
-
-From this workshop, I gained:
-- A clear understanding of the **5 security pillars** within the AWS Well-Architected Framework  
-- Practical insights into IAM design, detection mechanisms, and workload protection  
-- Knowledge of encryption, KMS, secret management, and data lifecycle security  
-- A real-world perspective on common cloud security issues in Vietnam  
-- Awareness of incident response workflows and automated remediation patterns  
-- A stronger security mindset aligned with modern cloud architectures  
-
-### Impact on Career Development
-
-This event helped reinforce my direction toward Cloud Security and DevSecOps. The workshop provided clarity on the AWS Security learning roadmap, including paths toward **Security Specialty** and **Solutions Architect Professional**, strengthening my long-term career orientation in cloud security.
+# End of Event Participation Summary

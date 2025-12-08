@@ -18,13 +18,13 @@ pre: "<b>1.10.</b>"
 
 | Day | Task                                                                                                                                                                                                                   | Start Date | Completion Date |
 | --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- |
-| 64  | - Module 06-01 – Tổng quan kiến thức cơ sở dữ liệu                                                                                                                                                                      | 10/11/2025 | 10/11/2025      |
-| 65  | - Module 06-02 – Amazon RDS & Amazon Aurora                                                                                                                                                                             | 11/11/2025 | 11/11/2025      |
-| 66  | - Module 06-03 – Redshift & ElastiCache                                                                                                                                                                                 | 12/11/2025 | 12/11/2025      |
-| 67  | - Tạo VPC <br> - Tạo EC2 Security Group <br> - Tạo RDS Security Group <br> - Tạo DB Subnet Group                                                                                                                       | 13/11/2025 | 13/11/2025      |
-| 68  | - Tạo EC2 Instance <br> - Tạo RDS Database Instance                                                                                                                                                                     | 14/11/2025 | 14/11/2025      |
-| 69  | - Triển khai ứng dụng (Application Deployment) <br> - Backup & Restore                                                                                                                                                | 15/11/2025 | 15/11/2025      |
-| 70  | - Dọn dẹp tài nguyên (Clean Up) <br> - Lab43-01 → 43-06 (EC2 Connect, cấu hình Oracle/MSSQL) <br> - Lab43-07 → 43-17 (Schema Conversion, Migration Tasks, Events, Logs, Troubleshooting)                             | 16/11/2025 | 16/11/2025      |
+| 1  | - Module 06-01 – Tổng quan kiến thức cơ sở dữ liệu                                                                                                                                                                      | 10/11/2025 | 10/11/2025      |
+| 2  | - Module 06-02 – Amazon RDS & Amazon Aurora                                                                                                                                                                             | 11/11/2025 | 11/11/2025      |
+| 3  | - Module 06-03 – Redshift & ElastiCache                                                                                                                                                                                 | 12/11/2025 | 12/11/2025      |
+| 4  | - Tạo VPC <br> - Tạo EC2 Security Group <br> - Tạo RDS Security Group <br> - Tạo DB Subnet Group                                                                                                                       | 13/11/2025 | 13/11/2025      |
+| 5  | - Tạo EC2 Instance <br> - Tạo RDS Database Instance                                                                                                                                                                     | 14/11/2025 | 14/11/2025      |
+| 6  | - Triển khai ứng dụng (Application Deployment) <br> - Backup & Restore                                                                                                                                                | 15/11/2025 | 15/11/2025      |
+| 7  | - Dọn dẹp tài nguyên (Clean Up) <br> - Lab43-01 → 43-06 (EC2 Connect, cấu hình Oracle/MSSQL) <br> - Lab43-07 → 43-17 (Schema Conversion, Migration Tasks, Events, Logs, Troubleshooting)                             | 16/11/2025 | 16/11/2025      |
 
 ---
 

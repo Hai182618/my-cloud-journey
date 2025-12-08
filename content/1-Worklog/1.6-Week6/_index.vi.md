@@ -20,13 +20,13 @@ pre: "<b>1.6.</b>"
 
 | Day | Task                                                                                                                                                                            | Start Date | Completion Date |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- |
-| 36  | - Module 03-01 – Compute VM on AWS <br> - Module 03-01-01 – EC2 Instance Types                                                                                                  | 13/10/2025 | 13/10/2025      |
-| 37  | Module 03-01-02 – AMI / Backup / Key Pair                                                                                                                                       | 14/10/2025 | 14/10/2025      |
-| 38  | - Module 03-01-03 – Elastic Block Store (EBS) <br> - Module 03-01-04 – Instance Store                                                                                           | 15/10/2025 | 15/10/2025      |
-| 39  | - Module 03-01-05 – User Data <br> - Module 03-01-06 – Metadata                                                                                                                 | 16/10/2025 | 16/10/2025      |
-| 40  | Module 03-01-07 – EC2 Auto Scaling                                                                                                                                              | 17/10/2025 | 17/10/2025      |
-| 41  | Module 03-02 – EC2 Autoscaling / EFS / FSx / Lightsail / MGN                                                                                                                    | 18/10/2025 | 18/10/2025      |
-| 42  | - Lab13-01 – Triển khai AWS Backup (Giới thiệu) <br> - Lab13-02.2 – Deploy Infrastructure <br> - Lab13-03 – Tạo Backup Plan <br> - Lab13-05 – Kiểm tra Restore <br> - Lab13-06 – Dọn dẹp tài nguyên | 19/10/2025 | 19/10/2025      |
+| 1  | - Module 03-01 – Compute VM on AWS <br> - Module 03-01-01 – EC2 Instance Types                                                                                                  | 13/10/2025 | 13/10/2025      |
+| 2  | Module 03-01-02 – AMI / Backup / Key Pair                                                                                                                                       | 14/10/2025 | 14/10/2025      |
+| 3  | - Module 03-01-03 – Elastic Block Store (EBS) <br> - Module 03-01-04 – Instance Store                                                                                           | 15/10/2025 | 15/10/2025      |
+| 4  | - Module 03-01-05 – User Data <br> - Module 03-01-06 – Metadata                                                                                                                 | 16/10/2025 | 16/10/2025      |
+| 5  | Module 03-01-07 – EC2 Auto Scaling                                                                                                                                              | 17/10/2025 | 17/10/2025      |
+| 6  | Module 03-02 – EC2 Autoscaling / EFS / FSx / Lightsail / MGN                                                                                                                    | 18/10/2025 | 18/10/2025      |
+| 7  | - Lab13-01 – Triển khai AWS Backup (Giới thiệu) <br> - Lab13-02.2 – Deploy Infrastructure <br> - Lab13-03 – Tạo Backup Plan <br> - Lab13-05 – Kiểm tra Restore <br> - Lab13-06 – Dọn dẹp tài nguyên | 19/10/2025 | 19/10/2025      |
 
 ---
 
