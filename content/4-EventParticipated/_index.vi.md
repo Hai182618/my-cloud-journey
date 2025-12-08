@@ -1,7 +1,7 @@
 ---
 title: "Tóm Tắt Tham Gia Sự Kiện"
 date: "2025-12-01"
-weight: 1
+weight: 4
 chapter: false
 ---
 
