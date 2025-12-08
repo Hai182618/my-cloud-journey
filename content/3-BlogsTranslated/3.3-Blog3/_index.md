@@ -1,124 +1,141 @@
+
 ---
 title: "Blog 3"
-date: "2025-09-11"
+date: "2024-11-13"
 weight: 3
 chapter: false
-pre: " <b> 3.3. </b> "
+pre: "<b> 3.3. </b>"
 ---
 
+# Amazon Q Developer Plugins Now Generally Available for the AWS Management Console
 
-# Getting Started with Healthcare Data Lakes: Using Microservices
+Today, Amazon Web Services (AWS) announced the launch and general availability of **Amazon Q Developer plugins** for **Datadog** and **Wiz** in the AWS Management Console. With these plugins, customers can query Datadog and Wiz directly inside Amazon Q using natural language prompts such as:
 
-Data lakes can help hospitals and healthcare facilities turn data into business insights, maintain business continuity, and protect patient privacy. A **data lake** is a centralized, managed, and secure repository to store all your data, both in its raw and processed forms for analysis. Data lakes allow you to break down data silos and combine different types of analytics to gain insights and make better business decisions.
+- `@datadog do I have any active alerts?`
+- `@wiz what are my top 3 security issues today?`
 
-This blog post is part of a larger series on getting started with setting up a healthcare data lake. In my final post of the series, *“Getting Started with Healthcare Data Lakes: Diving into Amazon Cognito”*, I focused on the specifics of using Amazon Cognito and Attribute Based Access Control (ABAC) to authenticate and authorize users in the healthcare data lake solution. In this blog, I detail how the solution evolved at a foundational level, including the design decisions I made and the additional features used. You can access the code samples for the solution in this Git repo for reference.
-
----
-
-## Architecture Guidance
-
-The main change since the last presentation of the overall architecture is the decomposition of a single service into a set of smaller services to improve maintainability and flexibility. Integrating a large volume of diverse healthcare data often requires specialized connectors for each format; by keeping them encapsulated separately as microservices, we can add, remove, and modify each connector without affecting the others. The microservices are loosely coupled via publish/subscribe messaging centered in what I call the “pub/sub hub.”
-
-This solution represents what I would consider another reasonable sprint iteration from my last post. The scope is still limited to the ingestion and basic parsing of **HL7v2 messages** formatted in **Encoding Rules 7 (ER7)** through a REST interface.
-
-**The solution architecture is now as follows:**
-
-> *Figure 1. Overall architecture; colored boxes represent distinct services.*
+This reduces context-switching and improves productivity for engineers and DevOps professionals. Engineers frequently struggle with *tool sprawl*, and Amazon Q Developer plugins aim to create a **single pane of glass** for unified operational insight.
 
 ---
 
-While the term *microservices* has some inherent ambiguity, certain traits are common:  
-- Small, autonomous, loosely coupled  
-- Reusable, communicating through well-defined interfaces  
-- Specialized to do one thing well  
-- Often implemented in an **event-driven architecture**
+## How Q Developer Plugins Work
 
-When determining where to draw boundaries between microservices, consider:  
-- **Intrinsic**: technology used, performance, reliability, scalability  
-- **Extrinsic**: dependent functionality, rate of change, reusability  
-- **Human**: team ownership, managing *cognitive load*
+Amazon Q Developer uses the prefix in your query (`@datadog`, `@wiz`) to route requests to the correct plugin. The workflow includes:
 
----
+1. **Intent Recognition**
+2. **API Invocation** (no AWS context or prompt data is sent externally)
+3. **Response Generation**
+4. **Guardrails** to ensure safety and best practices
 
-## Technology Choices and Communication Scope
-
-| Communication scope                       | Technologies / patterns to consider                                                        |
-| ----------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Within a single microservice              | Amazon Simple Queue Service (Amazon SQS), AWS Step Functions                               |
-| Between microservices in a single service | AWS CloudFormation cross-stack references, Amazon Simple Notification Service (Amazon SNS) |
-| Between services                          | Amazon EventBridge, AWS Cloud Map, Amazon API Gateway                                      |
+This enables Q Developer to understand your intent and provide accurate operational insights.
 
 ---
 
-## The Pub/Sub Hub
+# Amazon Q Developer Plugin for Datadog
 
-Using a **hub-and-spoke** architecture (or message broker) works well with a small number of tightly related microservices.  
-- Each microservice depends only on the *hub*  
-- Inter-microservice connections are limited to the contents of the published message  
-- Reduces the number of synchronous calls since pub/sub is a one-way asynchronous *push*
-
-Drawback: **coordination and monitoring** are needed to avoid microservices processing the wrong message.
+Datadog offers real-time observability for cloud applications. Using **@datadog**, you can fetch monitoring data directly from inside the AWS console.
 
 ---
 
-## Core Microservice
+## Learn to Use Datadog APM in Workloads
 
-Provides foundational data and communication layer, including:  
-- **Amazon S3** bucket for data  
-- **Amazon DynamoDB** for data catalog  
-- **AWS Lambda** to write messages into the data lake and catalog  
-- **Amazon SNS** topic as the *hub*  
-- **Amazon S3** bucket for artifacts such as Lambda code
+Example query:  
+`@datadog how do I use APM on my EC2 instance?`
 
-> Only allow indirect write access to the data lake through a Lambda function → ensures consistency.
+{{< figure src="/images/blog3/Datadog-APM-1.gif" caption="Using Amazon Q Developer to ask about Datadog APM on EC2." >}}
 
 ---
 
-## Front Door Microservice
+## Retrieve & Summarize Cases and Monitors
 
-- Provides an API Gateway for external REST interaction  
-- Authentication & authorization based on **OIDC** via **Amazon Cognito**  
-- Self-managed *deduplication* mechanism using DynamoDB instead of SNS FIFO because:  
-  1. SNS deduplication TTL is only 5 minutes  
-  2. SNS FIFO requires SQS FIFO  
-  3. Ability to proactively notify the sender that the message is a duplicate  
+{{< figure src="/images/blog3/Datadog-Cases-1.gif" caption="Listing all Datadog cases in the connected instance." >}}
+
+{{< figure src="/images/blog3/Datadog-Top-Cases-1.gif" caption="Summarizing top Datadog cases." >}}
 
 ---
 
-## Staging ER7 Microservice
+## Check & List Monitors in Alarm
 
-- Lambda “trigger” subscribed to the pub/sub hub, filtering messages by attribute  
-- Step Functions Express Workflow to convert ER7 → JSON  
-- Two Lambdas:  
-  1. Fix ER7 formatting (newline, carriage return)  
-  2. Parsing logic  
-- Result or error is pushed back into the pub/sub hub  
+{{< figure src="/images/blog3/Datadog-Monitors-1.gif" caption="All Datadog monitors listed via Amazon Q Developer." >}}
+
+{{< figure src="/images/blog3/Datadog-Alarms-1.gif" caption="No current alarms in Datadog." >}}
 
 ---
 
-## New Features in the Solution
+# Amazon Q Developer Plugin for Wiz
 
-### 1. AWS CloudFormation Cross-Stack References
-Example *outputs* in the core microservice:
-```yaml
-Outputs:
-  Bucket:
-    Value: !Ref Bucket
-    Export:
-      Name: !Sub ${AWS::StackName}-Bucket
-  ArtifactBucket:
-    Value: !Ref ArtifactBucket
-    Export:
-      Name: !Sub ${AWS::StackName}-ArtifactBucket
-  Topic:
-    Value: !Ref Topic
-    Export:
-      Name: !Sub ${AWS::StackName}-Topic
-  Catalog:
-    Value: !Ref Catalog
-    Export:
-      Name: !Sub ${AWS::StackName}-Catalog
-  CatalogArn:
-    Value: !GetAtt Catalog.Arn
-    Export:
-      Name: !Sub ${AWS::StackName}-CatalogArn
+Wiz allows organizations to manage cloud security posture and identify risks across systems. Using **@wiz**, developers can explore vulnerabilities, severity levels, and resource risk posture.
+
+---
+
+## View Issues With Critical Severity
+
+{{< figure src="/images/blog3/Wiz-top-5-critical-res-1.gif" caption="Wiz plugin showing critical severity issues." >}}
+
+---
+
+## Find Critical Resources
+
+{{< figure src="/images/blog3/Wiz-critical-resources-1.gif" caption="Listing critical resources detected by Wiz." >}}
+
+---
+
+## List Issues Based on Properties
+
+{{< figure src="/images/blog3/Wiz-due-next-1.gif" caption="Next issues due according to Wiz." >}}
+
+{{< figure src="/images/blog3/Wiz-due-soon-1.gif" caption="Newest issues created in the last few days." >}}
+
+---
+
+# Getting Started
+
+To enable third-party plugins in Amazon Q Developer:
+
+1. Subscribe to **Amazon Q Developer Pro Tier**
+2. Ensure an **Amazon Q Administrator Role/User** exists
+3. Open the **Plugins** tab in the Amazon Q Developer console
+4. Provide credentials for Datadog and Wiz (stored in AWS Secrets Manager)
+
+{{< figure src="/images/blog3/Q-Dev-Dashboard.png" caption="Amazon Q Developer dashboard showing Plugins section." >}}
+
+---
+
+## Configure Datadog Plugin
+
+{{< figure src="/images/blog3/Datadog-Plugin.png" caption="Datadog plugin configuration screen." >}}
+
+{{< figure src="/images/blog3/Datadog-integration.png" caption="Datadog settings page showing API credentials." >}}
+
+---
+
+## Configure Wiz Plugin
+
+{{< figure src="/images/blog3/Wiz-Plugin.png" caption="Wiz plugin configuration screen within Amazon Q Developer." >}}
+
+{{< figure src="/images/blog3/Wiz-Integration.png" caption="Wiz settings showing Client ID, Secret, and API Endpoint." >}}
+
+---
+
+# Querying the Plugins
+
+Here are example queries you can perform directly inside Amazon Q:
+
+````txt
+@datadog list my current monitors
+@wiz list the issues with critical severity
+@datadog summarize my top cases
+@wiz what issues are due next?
+````
+
+These queries allow operators to quickly gather events, alerts, risk posture, severity levels, and other operational intelligence across third-party systems.
+
+---
+
+# Conclusion
+
+Amazon Q Developer plugins for Datadog and Wiz help engineers understand infrastructure and security posture without switching tools. By unifying insights into a single interface, these plugins significantly improve **productivity**, **incident management**, and **operational efficiency**.
+
+---
+
+{{< figure src="/images/blog3/Profile_pic.jpg" caption="Author: Shardul Vaidya" >}}

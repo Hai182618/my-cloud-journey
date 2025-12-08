@@ -1,95 +1,141 @@
+
 ---
 title: "Blog 3"
-date: "2025-09-11"
+date: "2024-11-13"
 weight: 3
 chapter: false
 pre: "<b> 3.3. </b>"
 ---
 
-# Sử dụng Amazon Q Developer với các Plugin bên thứ ba
+# Plugin Amazon Q Developer hiện đã khả dụng trong AWS Management Console
 
-Bạn có thể hỏi cách Datadog hoạt động với các dịch vụ AWS, ví dụ:  
-**@datadog how do I use APM on my EC2 instance?**
+Hôm nay, Amazon Web Services (AWS) công bố ra mắt và phát hành rộng rãi **plugin Amazon Q Developer** dành cho **Datadog** và **Wiz** trong AWS Management Console. Với các plugin này, người dùng có thể truy vấn Datadog và Wiz trực tiếp trong Amazon Q bằng ngôn ngữ tự nhiên, ví dụ:
 
-{{< figure src="/images/blog3/image1.png" title="Hình 1." >}}
+- `@datadog do I have any active alerts?`
+- `@wiz what are my top 3 security issues today?`
 
----
-
-## Truy xuất và tóm tắt các case và monitor
-
-{{< figure src="/images/blog3/image2.png" title="Hình 2." >}}
-{{< figure src="/images/blog3/image3.png" title="Hình 3." >}}
+Điều này giúp giảm việc chuyển đổi công cụ và cải thiện năng suất cho kỹ sư và đội DevOps. Plugin Amazon Q Developer giúp hợp nhất thông tin vận hành vào **một giao diện duy nhất**.
 
 ---
 
-## Kiểm tra và liệt kê các monitor đang báo động
+## Plugin Q Developer hoạt động như thế nào?
 
-{{< figure src="/images/blog3/image4.png" title="Hình 4." >}}
-{{< figure src="/images/blog3/image5.png" title="Hình 5." >}}
+Amazon Q Developer sử dụng tiền tố trong truy vấn (`@datadog`, `@wiz`) để định tuyến yêu cầu đến plugin tương ứng. Quy trình bao gồm:
 
----
+1. **Nhận diện ý định (Intent Recognition)**  
+2. **Gọi API** (không gửi dữ liệu AWS hay nội dung prompt ra ngoài)  
+3. **Tạo phản hồi (Response Generation)**  
+4. **Kiểm tra an toàn (Guardrails)** bảo đảm kết quả đúng chuẩn  
 
-Bạn cũng có thể tiếp tục với câu hỏi như:  
-**@datadog list some of the resources…**
-
-{{< figure src="/images/blog3/image6.png" title="Hình 6." >}}
-{{< figure src="/images/blog3/image7.png" title="Hình 7." >}}
+Điều này cho phép Q Developer hiểu yêu cầu và đưa ra thông tin vận hành chính xác.
 
 ---
 
-## Xem các issue có mức độ nghiêm trọng (critical)
+# Plugin Amazon Q Developer cho Datadog
 
-Bạn có thể yêu cầu Q Developer lấy danh sách các issue critical từ Wiz.  
-Ví dụ: **@wiz list the issues with critical severity**
-
-{{< figure src="/images/blog3/image8.png" title="Hình 8." >}}
+Datadog cung cấp khả năng quan sát theo thời gian thực. Với tiền tố **@datadog**, bạn có thể truy vấn dữ liệu giám sát ngay trong AWS Console.
 
 ---
 
-## Tìm các tài nguyên quan trọng (critical resources)
+## Sử dụng Datadog APM trên EC2
 
-{{< figure src="/images/blog3/image9.png" title="Hình 9." >}}
+Ví dụ truy vấn:  
+`@datadog how do I use APM on my EC2 instance?`
 
----
-
-## Liệt kê các issue theo thuộc tính nhất định
-
-Ví dụ: **@wiz what issues are due next?**
-
-{{< figure src="/images/blog3/image10.png" title="Hình 10." >}}
+{{< figure src="/images/blog3/Datadog-APM-1.gif" caption="Sử dụng Q Developer để hỏi về Datadog APM trên EC2." >}}
 
 ---
 
-## Đánh giá các issue liên quan đến lỗ hổng bảo mật (vulnerabilities)
+## Truy xuất & tóm tắt Cases và Monitors
 
-Wiz theo dõi các lỗ hổng bên ngoài và các rủi ro liên quan tài nguyên của bạn.  
-Ví dụ: **@wiz what are my issues that have been created in the last 7 days?**
+{{< figure src="/images/blog3/Datadog-Cases-1.gif" caption="Liệt kê tất cả Datadog cases." >}}
 
-{{< figure src="/images/blog3/image11.png" title="Hình 11." >}}
+{{< figure src="/images/blog3/Datadog-Top-Cases-1.gif" caption="Tóm tắt top cases trong Datadog." >}}
 
 ---
 
-# Bắt đầu thiết lập Plugin
+## Kiểm tra & liệt kê Monitors cảnh báo
 
-Để kích hoạt Plugin bên thứ ba trong Amazon Q Developer:
+{{< figure src="/images/blog3/Datadog-Monitors-1.gif" caption="Liệt kê tất cả monitors trong Datadog." >}}
 
-{{< figure src="/images/blog3/image12.png" title="Hình 12." >}}
+{{< figure src="/images/blog3/Datadog-Alarms-1.gif" caption="Không có cảnh báo nào đang kích hoạt." >}}
 
-1. **Datadog** – Tạo API key trong Datadog và cấu hình Site URL, API Key cho Q Developer.
+---
 
-{{< figure src="/images/blog3/image13.png" title="Hình 13." >}}
+# Plugin Amazon Q Developer cho Wiz
 
-2. **Wiz** – Tạo Client ID và Secret theo tài liệu Wiz Service Account.
+Wiz hỗ trợ quản lý tư thế bảo mật và phân tích rủi ro trên hạ tầng cloud. Với **@wiz**, bạn có thể xem lỗ hổng, mức độ nghiêm trọng và tình trạng bảo mật của tài nguyên.
 
-{{< figure src="/images/blog3/image14.png" title="Hình 14." >}}
+---
+
+## Xem các vấn đề mức độ nghiêm trọng cao
+
+{{< figure src="/images/blog3/Wiz-top-5-critical-res-1.gif" caption="Wiz hiển thị các issue nghiêm trọng nhất." >}}
+
+---
+
+## Tìm tài nguyên có rủi ro cao
+
+{{< figure src="/images/blog3/Wiz-critical-resources-1.gif" caption="Danh sách tài nguyên bị đánh giá rủi ro cao." >}}
+
+---
+
+## Liệt kê các vấn đề theo thuộc tính
+
+{{< figure src="/images/blog3/Wiz-due-next-1.gif" caption="Các issue sắp đến hạn." >}}
+
+{{< figure src="/images/blog3/Wiz-due-soon-1.gif" caption="Các issue mới phát sinh gần đây." >}}
+
+---
+
+# Bắt đầu sử dụng
+
+Để kích hoạt plugin bên thứ ba trong Amazon Q Developer:
+
+1. Đăng ký **Amazon Q Developer Pro Tier**  
+2. Tạo **Amazon Q Administrator Role/User**  
+3. Mở tab **Plugins** trong Amazon Q Developer Console  
+4. Cung cấp thông tin kết nối Datadog và Wiz (được lưu trong AWS Secrets Manager)
+
+{{< figure src="/images/blog3/Q-Dev-Dashboard.png" caption="Giao diện Amazon Q Developer với mục Plugins." >}}
+
+---
+
+## Cấu hình Datadog Plugin
+
+{{< figure src="/images/blog3/Datadog-Plugin.png" caption="Màn hình cấu hình Datadog plugin." >}}
+
+{{< figure src="/images/blog3/Datadog-integration.png" caption="Trang thiết lập API key của Datadog." >}}
+
+---
+
+## Cấu hình Wiz Plugin
+
+{{< figure src="/images/blog3/Wiz-Plugin.png" caption="Màn hình cấu hình plugin Wiz." >}}
+
+{{< figure src="/images/blog3/Wiz-Integration.png" caption="Thông tin Client ID, Secret và Endpoint của Wiz." >}}
+
+---
+
+# Truy vấn Plugins
+
+Bạn có thể chạy các truy vấn trực tiếp trong Amazon Q:
+
+````txt
+@datadog list my current monitors
+@wiz list the issues with critical severity
+@datadog summarize my top cases
+@wiz what issues are due next?
+````
+
+Các truy vấn này cho phép bạn thu thập nhanh thông tin cảnh báo, sự cố, mức độ rủi ro và tình trạng bảo mật trên hệ thống.
 
 ---
 
 # Kết luận
 
-Bài viết giới thiệu cách Amazon Q Developer tương tác với plugin bên thứ ba qua tiền tố  
-**@datadog** và **@wiz**, giúp cải thiện khả năng phân tích và hiệu suất vận hành.
+Plugin Amazon Q Developer cho Datadog và Wiz giúp kỹ sư quan sát và đánh giá tình trạng hạ tầng mà không cần đổi công cụ. Bằng cách hợp nhất thông tin vận hành, plugin giúp tăng hiệu quả xử lý sự cố và cải thiện năng suất làm việc.
 
-{{< figure src="/images/blog3/image15.png" title="Hình 15. Tác giả Shardul Vaidya" >}}
+---
 
-Shardul Vaidya là Worldwide Partner Solutions Architect tại AWS, hỗ trợ khách hàng và đối tác xây dựng các trải nghiệm developer dựa trên Generative AI.
+{{< figure src="/images/blog3/Profile_pic.jpg" caption="Tác giả: Shardul Vaidya" >}}
