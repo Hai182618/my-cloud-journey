@@ -1,5 +1,5 @@
 ---
-title: "Tóm Tắt Tham Gia Sự Kiện"
+title: "4. Tóm Tắt Tham Gia Sự Kiện"
 date: "2025-12-01"
 weight: 4
 chapter: false
