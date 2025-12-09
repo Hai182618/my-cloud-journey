@@ -251,7 +251,7 @@ The workshop was designed to provide comprehensive knowledge and hands-on experi
 
 # Event Photos
 
-![Event photo](/images/4-Events%20Participated/6.png)
-![Event photo](/images/4-Events%20Participated/7.png)
-![Event photo](/images/4-Events%20Participated/8.png)
-![Event photo](/images/4-Events%20Participated/9.png)
+![Event photo](/images/6.png)
+![Event photo](/images/7.png)
+![Event photo](/images/8.png)
+![Event photo](/images/9.png)
