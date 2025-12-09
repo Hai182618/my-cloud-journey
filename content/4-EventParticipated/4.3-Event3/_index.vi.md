@@ -134,12 +134,8 @@ Buổi workshop cực kỳ hữu ích trong việc hiểu tổng thể bảo m�
 
 # Hình ảnh sự kiện
 
-![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/10.png)
-
-![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/11.png)
-
-![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/12.png)
-
-![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/13.png)
-
-![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/14.png)
+![Event photo](/images/4-Events%20Participated/10.png)
+![Event photo](/images/4-Events%20Participated/11.png)
+![Event photo](/images/4-Events%20Participated/12.png)
+![Event photo](/images/4-Events%20Participated/13.png)
+![Event photo](/images/4-Events%20Participated/14.png)

@@ -161,16 +161,9 @@ Demo bao gồm:
 # Hình ảnh sự kiện
 
 
-![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/1.png)
+![Event photo](/images/4-Events%20Participated/1.png)
+![Event photo](/images/4-Events%20Participated/2.png)
+![Event photo](/images/4-Events%20Participated/3.png)
+![Event photo](/images/4-Events%20Participated/4.png)
+![Event photo](/images/4-Events%20Participated/5.png)
 
-
-![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/2.png)
-
-
-![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/3.png)
-
-
-![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/4.png)
-
-
-![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/5.png)

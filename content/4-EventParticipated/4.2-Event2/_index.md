@@ -251,10 +251,7 @@ The workshop was designed to provide comprehensive knowledge and hands-on experi
 
 # Event Photos
 
-![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/6.png)
-
-![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/7.png)
-
-![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/8.png)
-
-![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/9.png)
+![Event photo](/images/4-Events%20Participated/6.png)
+![Event photo](/images/4-Events%20Participated/7.png)
+![Event photo](/images/4-Events%20Participated/8.png)
+![Event photo](/images/4-Events%20Participated/9.png)
