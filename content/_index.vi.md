@@ -18,7 +18,7 @@ chapter: false
 &emsp; **Lớp:** AWS082025  
 &emsp; **Công Ty Thực Tập:** Amazon Web Services Vietnam Co., Ltd.  
 &emsp; **Vị Trí Thực Tập:** FCJ Cloud Intern  
-&emsp; **Thời Gian Thực Tập:** Từ 12/08/2025 đến 12/11/2025  
+&emsp; **Thời Gian Thực Tập:** Từ 08/09/2025 đến 30/12/2025  
 
 ![Ảnh hồ sơ](/images/avatar.png)
 
