@@ -6,80 +6,150 @@ chapter: false
 pre: "<b>3.</b>"
 ---
 
-## Event 3 – AWS Well-Architected Security Pillar Workshop
+## Event 3 – AWS WELL-ARCHITECTED SECURITY PILLAR WORKSHOP
 
-**Event Name:** AWS Well-Architected Security Pillar Workshop  
-**Date & Time:** 08:30 AM – 12:00 PM, November 29, 2025  
+## Event Information
+**Date & Time:** Saturday, November 29, 2025, 8:30 AM – 12:00 PM  
 **Location:** AWS Vietnam Office  
-**Role:** Attendee (Student)
+**Role:** Attendee  
 
-### Description of Event Activities
+---
 
-This half-day workshop focused on the **Security Pillar** of the AWS Well-Architected Framework, providing a detailed and structured view of cloud security best practices based on five foundational pillars.
+## Event Purpose
+This morning workshop provided a comprehensive deep-dive into the AWS Well-Architected Security Pillar, covering all five security domains:
 
-The session began with an overview of the Security Pillar and its role within the Well-Architected Framework. Core cloud security principles were introduced, including:
-- Least Privilege  
-- Zero Trust  
-- Defense in Depth  
-- Shared Responsibility Model  
-- Common cloud security threats in Vietnam  
+- Identity & Access Management  
+- Detection  
+- Infrastructure Protection  
+- Data Protection  
+- Incident Response  
 
-#### ⭐ **Pillar 1: Identity & Access Management (IAM)**  
-The workshop’s first pillar explored modern IAM architecture:
-- IAM Users, Roles, and Policies  
-- Eliminating long-term credentials  
-- IAM Identity Center for SSO and centralized permission management  
-- SCPs and permission boundaries for multi-account environments  
-- MFA, credential rotation, and Access Analyzer  
-- Mini demo on IAM Policy validation and access simulation  
+The session was designed to equip participants with practical knowledge on implementing security best practices in AWS environments, including real-world examples from Vietnamese enterprises.
 
-#### ⭐ **Pillar 2: Detection**  
-This segment covered continuous monitoring and detection:
-- CloudTrail (organization-level logging)  
-- GuardDuty for threat detection  
-- Security Hub for compliance and posture management  
-- VPC Flow Logs, ALB Logs, S3 logs  
-- EventBridge for alerting and automation  
-- Detection-as-Code concepts  
+---
 
-#### ⭐ **Pillar 3: Infrastructure Protection**  
-Topics included:
-- VPC segmentation and network isolation  
-- Public vs private subnet placement  
-- Security Groups vs Network ACLs  
-- AWS WAF, Shield, and Network Firewall  
-- EC2, ECS, and EKS workload protection practices  
+# Agenda Overview
 
-#### ⭐ **Pillar 4: Data Protection**  
-This section emphasized encryption and secret management:
-- AWS KMS: key policies, grants, rotation  
-- Encryption at rest & in transit (S3, EBS, RDS, DynamoDB)  
-- Secrets Manager & Parameter Store patterns  
-- Data classification & guardrails  
+## **8:30 – 8:50 AM | Opening & Security Foundation**
+### Security Pillar in Well-Architected Framework
+- Role of the Security Pillar  
+- Core principles:  
+  - Least Privilege  
+  - Zero Trust  
+  - Defense in Depth  
+- AWS Shared Responsibility Model  
+- Top cloud security threats in Vietnam  
 
-#### ⭐ **Pillar 5: Incident Response**  
-The workshop concluded with incident response fundamentals:
-- AWS IR lifecycle and playbook structure  
-- Handling compromised IAM keys  
-- S3 public exposure remediation  
-- Malware detection on EC2  
-- Snapshot, isolation, and evidence collection  
-- Automated IR using Lambda and Step Functions  
+---
 
-### Participation & Role
+# Pillar 1 — Identity & Access Management  
+## **8:50 – 9:30 AM | Modern IAM Architecture**
+- IAM fundamentals: Users, Roles, Policies — avoid long-term credentials  
+- IAM Identity Center: SSO, permission sets  
+- SCP & Permission Boundaries for multi-account setups  
+- MFA, credential rotation, Access Analyzer  
+- **Mini Demo:** Validate IAM Policy + simulate access  
 
-As a student attendee, I primarily listened to the presentations and followed the explanations and demos. Although not performing hands-on exercises, I gained a comprehensive understanding of cloud security principles and AWS security services.
+---
 
-### Outcomes & Value Gained
+# Pillar 2 — Detection  
+## **9:30 – 9:55 AM | Detection & Continuous Monitoring**
+- CloudTrail (organization-level)  
+- GuardDuty  
+- Security Hub  
+- Logging layers: VPC Flow Logs, ALB logs, S3 logs  
+- Automated alerting with EventBridge  
+- Detection-as-Code (IaC + rules)  
 
-From this workshop, I gained:
-- A clear understanding of the **5 security pillars** within the AWS Well-Architected Framework  
-- Practical insights into IAM design, detection mechanisms, and workload protection  
-- Knowledge of encryption, KMS, secret management, and data lifecycle security  
-- A real-world perspective on common cloud security issues in Vietnam  
-- Awareness of incident response workflows and automated remediation patterns  
-- A stronger security mindset aligned with modern cloud architectures  
+---
 
-### Impact on Career Development
+## **9:55 – 10:10 AM | Coffee Break**
 
-This event helped reinforce my direction toward Cloud Security and DevSecOps. The workshop provided clarity on the AWS Security learning roadmap, including paths toward **Security Specialty** and **Solutions Architect Professional**, strengthening my long-term career orientation in cloud security.
+---
+
+# Pillar 3 — Infrastructure Protection  
+## **10:10 – 10:40 AM | Network & Workload Security**
+- VPC segmentation, private vs public placement  
+- Security Groups vs NACLs  
+- WAF + Shield + Network Firewall  
+- Workload security for EC2, ECS/EKS  
+
+---
+
+# Pillar 4 — Data Protection  
+## **10:40 – 11:10 AM | Encryption, Keys & Secrets**
+- KMS key policies, grants, rotation  
+- Encryption at-rest & in-transit for S3, EBS, RDS, DynamoDB  
+- Secrets Manager & Parameter Store — rotation patterns  
+- Data classification & access guardrails  
+
+---
+
+# Pillar 5 — Incident Response  
+## **11:10 – 11:40 AM | IR Playbook & Automation**
+### IR Lifecycle (AWS Framework)
+### Playbooks:
+- Compromised IAM key  
+- S3 public exposure  
+- EC2 malware detection  
+- Snapshot, isolation, evidence collection  
+- Automated response using Lambda / Step Functions  
+
+---
+
+## **11:40 – 12:00 PM | Wrap-Up & Q&A**
+- Summary of 5 pillars  
+- Common pitfalls & real-world practices in Vietnam  
+- Security learning roadmap (Security Specialty, SA Pro)  
+
+---
+
+# Key Learnings
+- Least Privilege is fundamental — always start minimally  
+- Zero Trust: no implicit trust, even internal  
+- Defense in Depth requires multilayer protection  
+- Detection must be automated & continuous  
+- IR playbooks must be documented & tested frequently  
+
+---
+
+# Application to My Work
+- Implement IAM Access Analyzer  
+- Enable GuardDuty & Security Hub for centralized monitoring  
+- Create IR playbooks for common incidents  
+- Review & restrict Security Group rules  
+- Enable encryption across all data stores (S3, RDS, DynamoDB)  
+
+---
+
+# Personal Experience
+This workshop provided strong practical insights:
+
+- Demos made abstract security concepts easy to understand  
+- Local enterprise security pitfalls were eye-opening  
+- IR playbooks were highly actionable  
+- Understanding all five pillars helped clarify holistic cloud security  
+
+---
+
+# Takeaways
+- Security is continuous, not a destination  
+- Automation is crucial for security at scale  
+- The Security Pillar is a complete framework for cloud protection  
+- Regular reviews and improvements are essential  
+- AWS provides strong native tools for every security domain  
+
+---
+
+# Event Photos
+
+![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/10.png)
+
+![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/11.png)
+
+![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/12.png)
+
+![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/13.png)
+
+![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/14.png)
+

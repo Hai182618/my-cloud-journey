@@ -6,74 +6,255 @@ chapter: false
 pre: "<b>2.</b>"
 ---
 
-## Event 2 – AWS DevOps Bootcamp
+## Event 2 – DEVOPS ON AWS WORKSHOP
 
-**Event Name:** AWS DevOps Bootcamp  
-**Date & Time:** 8:30 AM – 5:00 PM, November 17, 2025  
+## Event Information
+**Date & Time:** Monday, November 17, 2025, 8:30 AM – 5:00 PM  
 **Location:** AWS Vietnam Office  
-**Role:** Attendee (Student)
+**Role:** Attendee
 
-### Description of Event Activities
+---
 
-This full-day event delivered a comprehensive, in-depth experience across the core pillars of DevOps on AWS, combining theory, demos, and real-world best practices.
+## Event Purpose
+The workshop was designed to provide comprehensive knowledge and hands-on experience with AWS DevOps services, covering CI/CD pipelines, Infrastructure as Code, container services, and monitoring & observability. The event aimed to help participants understand DevOps culture, principles, and best practices while exploring practical implementation of DevOps workflows on AWS.
 
-#### **Morning Session (8:30 AM – 12:00 PM)**
+---
 
-The day began with a warm welcome and a recap of the previous AI/ML session. The trainers introduced the **DevOps mindset**, emphasizing culture, collaboration, automation, and continuous improvement.  
-Topics included:
-- DevOps principles and practices  
-- Benefits and performance metrics such as DORA, MTTR, deployment frequency  
+# Agenda Overview
 
-The next major segment focused on **AWS DevOps CI/CD services**, including:
-- AWS CodeCommit and Git strategies (GitFlow, Trunk-based Development)  
-- Build & Test automation with AWS CodeBuild  
-- Deployment strategies using CodeDeploy (Blue/Green, Canary, Rolling)  
-- CI/CD orchestration using AWS CodePipeline  
-- Live demo of a complete CI/CD pipeline  
+## Morning Session (8:30 AM – 12:00 PM)
 
-Following a short break, the session continued with **Infrastructure as Code (IaC)**:
-- CloudFormation templates, stack management, drift detection  
-- AWS CDK constructs, reusable patterns, multi-language support  
-- Demo deploying infrastructure with CloudFormation & CDK  
-- Discussion on choosing the right IaC tool for different scenarios  
+### **8:30 – 9:00 AM | Welcome & DevOps Mindset**
+- Recap of AI/ML session from previous workshop  
+- DevOps Culture and Principles  
+- Benefits and Key Metrics (DORA: Deployment Frequency, Lead Time, MTTR, Change Failure Rate)  
+- How DevOps improves software delivery and operational performance  
 
-#### **Afternoon Session (1:00 PM – 5:00 PM)**
+---
 
-The afternoon introduced **AWS container services**, covering:
-- Docker fundamentals and microservices containerization  
-- Amazon ECR image management, scanning, and lifecycle policies  
-- Amazon ECS & EKS orchestration, scaling, and deployment patterns  
-- AWS App Runner for simplified container deployment  
-- Demo & case study comparing microservices deployment options  
+### **9:00 – 10:30 AM | AWS DevOps Services – CI/CD Pipeline**
 
-After another break, the group explored **Monitoring & Observability**:
-- CloudWatch logs, metrics, alarms, dashboards  
-- AWS X-Ray for distributed tracing  
-- End-to-end demo of full-stack observability setup  
-- Best practices for alerting, dashboards, and on-call processes  
+### **Source Control: AWS CodeCommit & Git Strategies**
+- AWS CodeCommit overview  
+- GitFlow & Trunk-based Development  
+- Best practices for branching  
 
-The final segment highlighted **DevOps best practices**:
-- Feature flags, A/B testing, deployment safety techniques  
-- Automated testing and CI/CD integration  
-- Incident management workflows and postmortems  
-- Case studies from startups and enterprise DevOps transformations  
+---
 
-The day concluded with a Q&A session discussing **DevOps career pathways** and **AWS certification roadmap**.
+### **Build & Test: AWS CodeBuild**
+- Buildspec, environment variables, test execution  
+- Integration with testing frameworks  
 
-### Participation & Role
+---
 
-As an attendee, I listened attentively, observed demos, and followed the practical explanations of DevOps workflows on AWS. Although not directly hands-on, the event gave me a complete view of modern cloud DevOps practices.
+### **Deployment: AWS CodeDeploy**
+- Blue/Green  
+- Canary  
+- Rolling updates  
+- Choosing the right strategy  
 
-### Outcomes & Value Gained
+---
 
-From this event, I gained:
+### **Orchestration: AWS CodePipeline**
+- Pipeline stages  
+- Integrations  
+- Automation and triggers  
 
-- A deep understanding of DevOps culture, best practices, and the importance of continuous improvement  
-- Clear insights into CI/CD workflows using CodeCommit, CodeBuild, CodeDeploy, and CodePipeline  
-- Practical knowledge of Infrastructure as Code with CloudFormation and CDK  
-- Solid foundational understanding of container services (Docker, ECR, ECS, EKS, App Runner)  
-- Knowledge of monitoring & observability using CloudWatch and X-Ray  
-- Awareness of deployment strategies, incident management, and postmortems  
-- Broader career orientation toward Cloud DevOps and AWS certification paths  
+---
 
-This event significantly strengthened my understanding of DevOps and reinforced my interest in cloud engineering and automation.
+### **Demo: Full CI/CD Pipeline**
+- CodeCommit → CodeBuild → CodeDeploy → CodePipeline  
+- Testing automated deployment end-to-end  
+
+---
+
+### **10:30 – 10:45 AM | Break**
+
+---
+
+### **10:45 AM – 12:00 PM | Infrastructure as Code**
+
+### **AWS CloudFormation**
+- Templates, stacks, drift detection, change sets  
+- Best practices  
+
+### **AWS CDK**
+- Constructs, reusable patterns  
+- Language support  
+- Benefits over CloudFormation  
+
+---
+
+### **Demo: CloudFormation vs CDK**
+- Deploy VPC + EC2 via YAML  
+- Same infra via CDK  
+- Comparison of developer experience  
+
+---
+
+## **Lunch Break (12:00 – 1:00 PM)**
+
+---
+
+# Afternoon Session (1:00 – 5:00 PM)
+
+## **1:00 – 2:30 PM | Container Services on AWS**
+
+### **Docker & Microservices**
+- Containers, images, Dockerfile  
+- Microservices architecture  
+
+---
+
+### **Amazon ECR**
+- Image storage  
+- Scanning  
+- Lifecycle policies  
+
+---
+
+### **Amazon ECS & EKS**
+- Task definitions, services, scaling  
+- Deployment strategies (Rolling, Blue/Green, Canary)  
+- Kubernetes concepts & autoscaling  
+
+---
+
+### **AWS App Runner**
+- Simple container deployment  
+- Auto-scaling  
+- Comparison vs ECS/EKS  
+
+---
+
+### **Demo: Microservices Deployment Comparison**
+- Deploy via App Runner  
+- Deploy via ECS Fargate  
+- Compare cost, effort, operations  
+
+---
+
+### **2:30 – 2:45 PM | Break**
+
+---
+
+## **2:45 – 4:00 PM | Monitoring & Observability**
+
+### **Amazon CloudWatch**
+- Metrics, logs, alarms, dashboards  
+- Best practices  
+
+---
+
+### **AWS X-Ray**
+- Distributed tracing  
+- Service maps  
+- Performance insights  
+
+---
+
+### **Demo: Full-Stack Observability**
+- CloudWatch setup  
+- Dashboards  
+- Alarms  
+- X-Ray tracing  
+
+---
+
+## **Best Practices**
+- Alert strategy  
+- Dashboard design  
+- On-call process  
+- SLO/SLI  
+
+---
+
+## **4:00 – 4:45 PM | DevOps Best Practices & Case Studies**
+
+### Deployment Strategies
+- Feature flags  
+- A/B testing  
+
+### Automated Testing & Integration
+- Testing pyramid  
+- Quality gates  
+- Coverage  
+
+### Incident Management
+- Response  
+- Postmortems  
+- Blameless culture  
+
+### Case Studies
+- Startup scaling  
+- Enterprise transformation  
+- ROI measurement  
+
+---
+
+## **4:45 – 5:00 PM | Q&A & Wrap-up**
+- DevOps career pathways  
+- Certification roadmap  
+- Next steps  
+
+---
+
+# Key Highlights
+- CI/CD automation via CodePipeline  
+- IaC with CloudFormation & CDK  
+- Multiple container services for diverse workloads  
+- CloudWatch + X-Ray provide full observability  
+- DevOps culture is essential  
+- Best practices across testing & incident management  
+
+---
+
+# Key Learnings
+- DevOps requires cultural transformation  
+- CI/CD enhances delivery reliability  
+- IaC improves consistency & speed  
+- Container selection should match team skills & complexity  
+- Observability is mission-critical  
+- DevOps is continuous improvement  
+
+---
+
+# Application to My Work
+- Implement CI/CD  
+- Adopt IaC  
+- Containerize services  
+- Improve monitoring  
+- Apply DevOps principles  
+- Establish incident management practices  
+
+---
+
+# Personal Experience
+- CI/CD demo showed true automation  
+- IaC tools comparison was insightful  
+- Container service breakdown clarified service selection  
+- Observability session emphasized reliability  
+- Case studies demonstrated real-world DevOps value  
+- Career path session was inspiring  
+
+---
+
+# Takeaways
+- Start small  
+- Culture matters  
+- Choose tools wisely  
+- Monitor everything  
+- Keep learning  
+- Use DORA metrics to measure improvement  
+
+---
+
+# Event Photos
+
+![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/6.png)
+
+![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/7.png)
+
+![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/8.png)
+
+![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/9.png)

@@ -6,43 +6,171 @@ chapter: false
 pre: "<b>1.</b>"
 ---
 
-## Sự kiện 1 – AI/ML/GenAI on AWS
+## Sự kiện 1 – # HỘI THẢO AI/ML/GENAI TRÊN AWS
 
-**Tên sự kiện:** AI/ML/GenAI on AWS  
-**Thời gian:** 8:30 – 12:00, ngày 15/11/2025  
+## Thông tin sự kiện
+**Thời gian:** Thứ Bảy, 15/11/2025, 8:30 AM – 12:00 PM  
 **Địa điểm:** Văn phòng AWS Việt Nam  
-**Vai trò:** Người tham dự (Sinh viên)
+**Vai trò:** Người tham dự  
 
-### Mô tả nội dung sự kiện
+---
 
-Sự kiện diễn ra trong buổi sáng, giới thiệu toàn cảnh về công nghệ AI/ML và Generative AI trên nền tảng AWS. Chương trình bắt đầu với phần đón tiếp, giao lưu, giới thiệu mục tiêu workshop và bức tranh tổng quan về thị trường AI/ML tại Việt Nam.
+## Mục đích sự kiện
+Workshop được tổ chức nhằm cung cấp trải nghiệm thực hành với các dịch vụ AI/ML của AWS, tập trung vào Amazon SageMaker cho quy trình machine learning truyền thống và Amazon Bedrock cho các ứng dụng generative AI. Sự kiện giúp người tham gia hiểu cách triển khai giải pháp AI/ML trên AWS và khám phá những khả năng mới nhất của công nghệ GenAI.
 
-Phần đầu tập trung vào hệ sinh thái **AWS AI/ML**, bao gồm:
-- Amazon SageMaker và quy trình end-to-end cho machine learning  
-- Chuẩn bị, tiền xử lý và gán nhãn dữ liệu  
-- Train – tune – deploy mô hình  
-- Các tính năng MLOps tích hợp  
-- Demo trực quan với SageMaker Studio  
+---
 
-Sau giờ nghỉ ngắn, nội dung chuyển sang **Generative AI với Amazon Bedrock**, bao gồm:
-- Các Foundation Models (Claude, Llama, Titan) và cách chọn mô hình phù hợp  
-- Kỹ thuật Prompt Engineering (Chain-of-Thought, Few-shot…)  
-- Kiến trúc RAG và tích hợp knowledge base  
-- Bedrock Agents và quy trình multi-step  
-- Guardrails – cơ chế kiểm soát an toàn  
-- Demo xây dựng chatbot Generative AI  
+## Tổng quan chương trình
 
-### Cách tôi tham gia
+### **8:30 – 9:00 AM | Chào mừng & Giới thiệu**
+- Đăng ký và giao lưu  
+- Giới thiệu tổng quan workshop và mục tiêu học tập  
+- Hoạt động ice-breaker  
+- Tổng quan thị trường AI/ML tại Việt Nam  
 
-Là sinh viên tham dự, tôi tập trung lắng nghe các phần chia sẻ, quan sát các demo, theo dõi quy trình thao tác thực tế trên SageMaker và Bedrock. Mặc dù không trực tiếp thực hành, tôi vẫn tiếp thu được rất nhiều kiến thức mới từ nội dung giảng dạy.
+---
 
-### Giá trị và bài học nhận được
+### **9:00 – 10:30 AM | Tổng quan dịch vụ AWS AI/ML**
 
-Từ sự kiện này, tôi đã:
-- Mở rộng góc nhìn về ứng dụng AI/ML và GenAI tại Việt Nam  
-- Hiểu rõ hơn về quy trình SageMaker trong toàn bộ vòng đời ML  
-- Nắm được kiến thức thực tế về Generative AI trên Bedrock  
-- Học được cách chọn mô hình nền tảng, thiết kế RAG, viết prompt hiệu quả và áp dụng guardrails  
-- Củng cố định hướng nghề nghiệp theo Cloud & AI/ML  
+## **Amazon SageMaker – Nền tảng ML toàn diện**
 
-Sự kiện mang lại nhiều giá trị thiết thực và giúp tôi tự tin hơn khi theo đuổi lĩnh vực AI/ML trên nền tảng AWS.
+### **Chuẩn bị dữ liệu & Gán nhãn**
+- Làm sạch dữ liệu, tạo đặc trưng  
+- Gán nhãn tự động  
+
+### **Huấn luyện – Tinh chỉnh – Triển khai**
+- Hạ tầng huấn luyện, tuning  
+- Triển khai mô hình realtime hoặc batch  
+
+### **Tích hợp MLOps**
+- Quản lý phiên bản, giám sát mô hình  
+- Pipeline tự động retrain  
+
+---
+
+### **Demo: SageMaker Studio**
+Demo trình bày:
+
+- Tích hợp Jupyter Notebook  
+- Theo dõi thí nghiệm và model registry  
+- Workflow builder trực quan  
+- Tích hợp các dịch vụ AWS khác cho xử lý dữ liệu  
+
+---
+
+### **10:30 – 10:45 AM | Nghỉ giải lao**
+
+---
+
+## **10:45 AM – 12:00 PM | Generative AI với Amazon Bedrock**
+
+### **Foundation Models: Claude, Llama, Titan**
+- Tìm hiểu các mô hình nền tảng  
+- So sánh khả năng, use-case, hiệu năng  
+- Hướng dẫn chọn mô hình phù hợp  
+- Tối ưu chi phí  
+
+---
+
+### **Prompt Engineering**
+- Kỹ thuật viết prompt hiệu quả  
+- Chain-of-thought reasoning  
+- Few-shot learning  
+
+---
+
+## **RAG – Retrieval-Augmented Generation**
+- Tổng quan kiến trúc RAG  
+- Tích hợp Bedrock với vector DB, OpenSearch, Kendra  
+- Best practices xây dựng ứng dụng chính xác, ngữ cảnh đầy đủ  
+
+---
+
+## **Bedrock Agents – Workflow đa bước & tích hợp công cụ**
+- Kiến trúc Agent  
+- Kết nối API, database, các dịch vụ AWS  
+- Mẫu thiết kế workflow phức tạp  
+
+---
+
+## **Guardrails – An toàn & lọc nội dung**
+- Cách Bedrock Guardrails lọc nội dung không phù hợp  
+- Tạo chính sách tùy chỉnh  
+- Đảm bảo tuân thủ và governance  
+
+---
+
+## **Demo: Xây dựng Chatbot Generative AI**
+Demo bao gồm:
+
+1. Cài đặt foundation model  
+2. Xây dựng RAG với knowledge base  
+3. Cấu hình Agents cho hội thoại đa lượt  
+4. Thêm Guardrails để bảo vệ nội dung  
+5. Triển khai chatbot  
+
+---
+
+# **Điểm nổi bật**
+- SageMaker là nền tảng ML end-to-end  
+- Bedrock cung cấp nhiều foundation model mạnh mẽ  
+- RAG giúp AI dùng đúng thông tin từ knowledge base  
+- MLOps giúp triển khai ML vào sản xuất dễ dàng hơn  
+- Guardrails đảm bảo tính an toàn và tuân thủ  
+
+---
+
+# **Bài học rút ra**
+- Studio thống nhất workflow giúp tăng hiệu quả  
+- Lựa chọn foundation model quyết định chất lượng hệ thống  
+- Prompt engineering rất quan trọng  
+- RAG không thể thiếu cho ứng dụng cần tri thức chính xác  
+- Agents cho phép xử lý yêu cầu đa bước  
+- An toàn nội dung phải đặt lên hàng đầu  
+
+---
+
+# **Ứng dụng vào công việc**
+- Trải nghiệm ML với SageMaker  
+- Xây dựng ứng dụng RAG cho tài liệu nội bộ  
+- Thực hành prompt engineering  
+- Tự động pipeline bằng MLOps  
+- Tích hợp Guardrails vào GenAI  
+
+---
+
+# **Trải nghiệm cá nhân**
+- Demo SageMaker ấn tượng với giao diện thống nhất  
+- Kiến trúc RAG mang lại hiểu biết sâu về cách AI truy xuất tri thức  
+- Bedrock Agents cho thấy tiềm năng tự động hóa workflow phức tạp  
+- Prompt engineering mang tính ứng dụng cao  
+- Guardrails nhấn mạnh tầm quan trọng về an toàn  
+
+---
+
+# **Tổng kết**
+- Luôn bắt đầu từ use-case  
+- Foundation model là công cụ mạnh mẽ  
+- RAG cần thiết cho ứng dụng AI doanh nghiệp  
+- MLOps quan trọng cho sản phẩm AI vận hành ổn định  
+- An toàn không thể bỏ qua  
+- Học tập liên tục vì AI thay đổi rất nhanh  
+
+---
+
+# Hình ảnh sự kiện
+
+
+![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/1.png)
+
+
+![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/2.png)
+
+
+![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/3.png)
+
+
+![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/4.png)
+
+
+![Photo](D:/_____________________TRUYEN/CloudRead-main/CloudRead-main/CloudRead-main/fcj-workshop-template-main/fcj-workshop-template-main/static/images/4-Events%20Participated/5.png)
